@@ -18,7 +18,7 @@ export const Guest=()=>
       
       <div>
         <label htmlFor="name">Name : </label>
-        <input type="text" id='name'name='name' size={40} placeholder='Enter Your Name' className='px-2 border border-gray-500 rounded-md' onChange={(e)=>{setName(e.target.value);}}/>
+        <input type="text" id='name'name='name' size={40} placeholder='Enter Your Name and click Enter' className='px-2 border border-gray-500 rounded-md' onKeyDown={(e) => {if (e.key === 'Enter') {setName(e.target.value); }}}/>
       </div>
       <h1 className='text-center text-5xl '>Hello, <span className='text-red-500'>{name}
         </span>!</h1>
