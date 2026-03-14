@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+    <h1 >Hello <span id="a1">World</span>!</h1>
+    <button id="b1">Change</button>
+</body>
+<script>
+a1=document.getElementById("a1");
+b1=document.getElementById("b1");
+b1.onclick =()=>{
+    if (a1.textContent==="World")
+     { a1.textContent="Developers"}
+     else
+    {  
+     a1.textContent="World"}
+    };
+</script>
+</html>
