@@ -1,15 +1,7 @@
 import React,{ useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-export const GuestList=()=>
-{
-  const Name=[{name:"ravi"},];
-  return(
-    <div>
-      
-    </div>
-  );
-}
+
 export const Guest=()=>
 {
   var[name,setName]=useState("Guest");
