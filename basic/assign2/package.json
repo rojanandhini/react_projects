@@ -5,6 +5,11 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "not dead"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
