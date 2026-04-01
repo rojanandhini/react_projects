@@ -1,238 +1,247 @@
 export const Categories=()=>{
   const categoryItem=[
     {
-      catName:"Computer & Office",
+      catName:"For You",
       catImg:<svg
-            className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            width={24}
-            height={24}
-            fill="none"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 15v5m-3 0h6M4 11h16M5 15h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1Z"
-            />
-          </svg>
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-handbag-icon lucide-handbag"
+>
+  <path d="M2.048 18.566A2 2 0 0 0 4 21h16a2 2 0 0 0 1.952-2.434l-2-9A2 2 0 0 0 18 8H6a2 2 0 0 0-1.952 1.566z" />
+  <path d="M8 11V6a4 4 0 0 1 8 0v5" />
+</svg>
+
+
+
+  },
+  {catName:"Fashion",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-shirt-icon lucide-shirt"
+>
+  <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
+</svg>
+
+    },
+     {catName:"Mobiles",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-smartphone-icon lucide-smartphone"
+>
+  <rect width={14} height={20} x={5} y={2} rx={2} ry={2} />
+  <path d="M12 18h.01" />
+</svg>
+
+    },
+    {catName:"Beauty",
+      catImg:<svg
+  width="64px"
+  height="64px"
+  viewBox="0 0 1024 1024"
+  className="icon"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="#000000"
+  stroke="#000000"
+  strokeWidth="1.024"
+>
+  <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+  <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
+  <g id="SVGRepo_iconCarrier">
+    <path d="M616.04 168.816v261.376H422.096V62.36" fill="#f5f90b" />
+    <path d="M329.32 429.632h365.36v570.48h-365.36z" fill="#fafafa" />
+    <path d="M616.04 429.632H512.824v570.48h181.856v-570.48z" fill="#fafafa" />
+    <path
+      d="M512.824 430.192h103.216V168.816l-103.216-56.648z"
+      fill="#f5f90b"
+    />
+    <path
+      d="M607.072 195.768c-22.344 24.432-79.792 8.352-128.416-36.072-48.528-44.24-69.936-100.008-47.592-124.416 22.192-24.432 79.696-8.288 128.264 36.04 48.68 44.368 69.992 100.136 47.744 124.448z"
+      fill="#f5f90b"
+    />
+  </g>
+</svg>
+
+    },
+    {
+      catName:"Electronics",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-laptop-icon lucide-laptop"
+>
+  <path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z" />
+  <path d="M20.054 15.987H3.946" />
+</svg>
+
+
   },
     {
-      catName:"Collectibles & Toys",
+      catName:"Home",
     catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M16.872 9.687 20 6.56 17.44 4 4 17.44 6.56 20 16.873 9.687Zm0 0-2.56-2.56M6 7v2m0 0v2m0-2H4m2 0h2m7 7v2m0 0v2m0-2h-2m2 0h2M8 4h.01v.01H8V4Zm2 2h.01v.01H10V6Zm2-2h.01v.01H12V4Zm8 8h.01v.01H20V12Zm-2 2h.01v.01H18V14Zm2 2h.01v.01H20V16Z"
-              />
-            </svg>
-    },
-    {catName:"Books & eBooks",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"
-              />
-            </svg>
-    },
-    {catName:"Fashion/Clothes",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 10V6a3 3 0 0 1 3-3v0a3 3 0 0 1 3 3v4m3-2 .917 11.923A1 1 0 0 1 17.92 21H6.08a1 1 0 0 1-.997-1.077L6 8h12Z"
-              />
-            </svg>
-    },
-    {catName:"Sports & Outdoors",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeWidth={2}
-                d="M4.37 7.657c2.063.528 2.396 2.806 3.202 3.87 1.07 1.413 2.075 1.228 3.192 2.644 1.805 2.289 1.312 5.705 1.312 6.705M20 15h-1a4 4 0 0 0-4 4v1M8.587 3.992c0 .822.112 1.886 1.515 2.58 1.402.693 2.918.351 2.918 2.334 0 .276 0 2.008 1.972 2.008 2.026.031 2.026-1.678 2.026-2.008 0-.65.527-.9 1.177-.9H20M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-              />
-            </svg>
-    },
-   
-    {catName:"Electronics",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 9a3 3 0 0 1 3-3m-2 15h4m0-3c0-4.1 4-4.9 4-9A6 6 0 1 0 6 9c0 4 4 5 4 9h4Z"
-              />
-            </svg>
-    },
-    {catName:"Food & Grocery",
-      catImg: <svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 12c.263 0 .524-.06.767-.175a2 2 0 0 0 .65-.491c.186-.21.333-.46.433-.734.1-.274.15-.568.15-.864a2.4 2.4 0 0 0 .586 1.591c.375.422.884.659 1.414.659.53 0 1.04-.237 1.414-.659A2.4 2.4 0 0 0 12 9.736a2.4 2.4 0 0 0 .586 1.591c.375.422.884.659 1.414.659.53 0 1.04-.237 1.414-.659A2.4 2.4 0 0 0 16 9.736c0 .295.052.588.152.861s.248.521.434.73a2 2 0 0 0 .649.488 1.809 1.809 0 0 0 1.53 0 2.03 2.03 0 0 0 .65-.488c.185-.209.332-.457.433-.73.1-.273.152-.566.152-.861 0-.974-1.108-3.85-1.618-5.121A.983.983 0 0 0 17.466 4H6.456a.986.986 0 0 0-.93.645C5.045 5.962 4 8.905 4 9.736c.023.59.241 1.148.611 1.567.37.418.865.667 1.389.697Zm0 0c.328 0 .651-.091.94-.266A2.1 2.1 0 0 0 7.66 11h.681a2.1 2.1 0 0 0 .718.734c.29.175.613.266.942.266.328 0 .651-.091.94-.266.29-.174.537-.427.719-.734h.681a2.1 2.1 0 0 0 .719.734c.289.175.612.266.94.266.329 0 .652-.091.942-.266.29-.174.536-.427.718-.734h.681c.183.307.43.56.719.734.29.174.613.266.941.266a1.819 1.819 0 0 0 1.06-.351M6 12a1.766 1.766 0 0 1-1.163-.476M5 12v7a1 1 0 0 0 1 1h2v-5h3v5h7a1 1 0 0 0 1-1v-7m-5 3v2h2v-2h-2Z"
-              />
-            </svg>
-    },
-   
-    {catName:"Health & beauty",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15.041 13.862A4.999 4.999 0 0 1 17 17.831V21M7 3v3.169a5 5 0 0 0 1.891 3.916M17 3v3.169a5 5 0 0 1-2.428 4.288l-5.144 3.086A5 5 0 0 0 7 17.831V21M7 5h10M7.399 8h9.252M8 16h8.652M7 19h10"
-              />
-            </svg>
-    },
-   
-    {catName:"Gaming/Consoles",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M14.079 6.839a3 3 0 0 0-4.255.1M13 20h1.083A3.916 3.916 0 0 0 18 16.083V9A6 6 0 1 0 6 9v7m7 4v-1a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1Zm-7-4v-6H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1Zm12-6h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v-6Z"
-              />
-            </svg>
-    },
-   
-    {catName:"Computer Peripherals",
-      catImg:<svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="square"
-                strokeWidth={2}
-                d="M8 15h7.01v.01H15L8 15Z"
-              />
-              <path
-                stroke="currentColor"
-                strokeLinecap="square"
-                strokeWidth={2}
-                d="M20 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Z"
-              />
-              <path
-                stroke="currentColor"
-                strokeLinecap="square"
-                strokeWidth={2}
-                d="M6 9h.01v.01H6V9Zm0 3h.01v.01H6V12Zm0 3h.01v.01H6V15Zm3-6h.01v.01H9V9Zm0 3h.01v.01H9V12Zm3-3h.01v.01H12V9Zm0 3h.01v.01H12V12Zm3 0h.01v.01H15V12Zm3 0h.01v.01H18V12Zm0 3h.01v.01H18V15Zm-3-6h.01v.01H15V9Zm3 0h.01v.01H18V9Z"
-              />
-            </svg>
-    },
-    {catName:"Phone Accessories",
-      catImg: <svg
-              className="me-2 h-4 w-4 shrink-0 text-gray-900 "
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5Zm16 14a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2ZM4 13a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6Zm16-2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6Z"
-              />
-            </svg>
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-lamp-icon lucide-lamp"
+>
+  <path d="M12 12v6" />
+  <path d="M4.077 10.615A1 1 0 0 0 5 12h14a1 1 0 0 0 .923-1.385l-3.077-7.384A2 2 0 0 0 15 2H9a2 2 0 0 0-1.846 1.23Z" />
+  <path d="M8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z" />
+</svg>
+
     },
     
+    {catName:"Baby/Toys",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-baby-icon lucide-baby"
+>
+  <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+  <path d="M15 12h.01" />
+  <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+  <path d="M9 12h.01" />
+</svg>
+
+    },
+   
+    
+    {catName:"Food & Grocery",
+      catImg: <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-salad-icon lucide-salad"
+>
+  <path d="M7 21h10" />
+  <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z" />
+  <path d="M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1" />
+  <path d="m13 12 4-4" />
+  <path d="M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2" />
+</svg>
+
+    },
+   
+    {catName:"Books",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-book-marked-icon lucide-book-marked"
+>
+  <path d="M10 2v8l3-3 3 3V2" />
+  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+</svg>
+
+    },
+   
+    {catName:"Sports/Outdoor",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-trophy-icon lucide-trophy"
+>
+  <path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" />
+  <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" />
+  <path d="M18 9h1.5a1 1 0 0 0 0-5H18" />
+  <path d="M4 22h16" />
+  <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+  <path d="M6 9H4.5a1 1 0 0 1 0-5H6" />
+</svg>
+
+    },
+   
+   
+    {catName:"Furniture",
+      catImg:<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={44}
+  height={44}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#5f5d5d"
+  strokeWidth="0.4090909090909091"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-armchair-icon lucide-armchair"
+>
+  <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3" />
+  <path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z" />
+  <path d="M5 18v2" />
+  <path d="M19 18v2" />
+</svg>
+},
+    
    ];
-return(<section className="w-full  rounded-lg antialiased fixed top-32 ">
-  <div className="max-w-screen-xl mx-auto px-4 2xl:px-0 py-2 w-full mt-2  bg-white">
+return(<section className="w-full rounded-lg antialiased  bg-white"> 
+  <div className="max-w-screen-xl mx-auto px-4 2xl:px-0 py-2 w-full bg-white">
     <div className="flex ">
       {
         categoryItem.map((items,index)=>{
                           return (
-                              <div key={index}>
+                              <div key={index} className="flex flex-row justify-between items-center w-full">
                                   <CategoryItems
                                     catName={items.catName}
                                     catImg={items.catImg}
@@ -249,11 +258,14 @@ return(<section className="w-full  rounded-lg antialiased fixed top-32 ">
 export const CategoryItems=(props)=>{
   return(<a
         href="#"
-        className="flex flex-col items-center px-4 py-2 hover:backdrop-blur-sm hover:bg-gradient-to-b from-[#CAE8FF] to-white hover:border-b-[#1162F2] hover:border-b-4 hover:rounded-br-none hover:rounded-bl-none rounded-xl"
+        className="flex flex-col group justify-center items-center px-4 group-hover:backdrop-blur-sm hover:bg-gradient-to-b from-[#CAE8FF] to-white hover:rounded-br-none hover:rounded-bl-none rounded-xl"
       >
-        {props?.catImg}
+        <div className=" animate-[disappear_linear_both] 
+  [animation-timeline:scroll(root)] 
+  [animation-range:0px_100px] px-2">{props?.catImg}</div>
         
-        <span className="inline-block w-20 truncate text-sm font-medium text-gray-900 hover:w-auto hover:overflow-visible ">
+        
+        <span className="top-60 text-center text-base font-medium text-gray-900 truncate px-2 group-hover:border-b-[#1162F2] group-hover:border-b-4 ">
           {props?.catName}
         </span>
       </a>);

@@ -4,8 +4,8 @@ import flipkart_logo from "../assets/header/flipkart_logo.png"
 
 const Header = () => {
   return (
-  <section className=" bg-white fixed top-0 w-full">
-  <div className="w-full max-w-screen-xl px-4 mx-auto mt-2 lg:px-12 ">
+  <section className=" bg-white ">
+  <div className="w-full max-w-screen-xl px-4 mx-auto py-2 lg:px-12 ">
     {/* Start coding here */}
     <div className=" overflow-hidden bg-white ">
       <div className="flex flex-col items-center justify-between p-2 space-y-3 md:flex-row md:space-y-0 md:space-x-4">
