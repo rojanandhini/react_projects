@@ -19,7 +19,7 @@ export const Route = createBrowserRouter([
     path: "/",
     element:<HomeLayout/>
   },{
-    path: "/recentNews",
+    path: "/api/recentNews/:postNo",
     element:<NewsDetails/>
   }, 
   {

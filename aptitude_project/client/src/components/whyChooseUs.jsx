@@ -7,14 +7,46 @@ const WhyChooseUs = () => {
         <h2 className='text-3xl text-indigo-600 font-semibold'>Why Choose Us?</h2>
         <div className="grid grid-cols-2 gap-5">
           <div className="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 24 24" fill="none" stroke="#272626" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor-smartphone-icon lucide-monitor-smartphone"><path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"/><path d="M10 19v-3.96 3.15"/><path d="M7 19h5"/><rect width="6" height="10" x="16" y="12" rx="2"/></svg> 
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={256}
+  height={256}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#272626"
+  strokeWidth="0.75"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-monitor-smartphone-icon lucide-monitor-smartphone"
+>
+  <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8" />
+  <path d="M10 19v-3.96 3.15" />
+  <path d="M7 19h5" />
+  <rect width={6} height={10} x={16} y={12} rx={2} />
+</svg>
+
             <div className='flex flex-col justify-center gap-2'>
               <h3 className="text-xl font-medium text-emerald-400">Access Anywhere And Anytime</h3>
               <p className='text-lg text-gray-600'>Our platform is accessible 24/7, offering seamless use from any computer, tablet, or smartphone.</p>
             </div>
           </div>
           <div className="flex gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 24 24" fill="none" stroke="#272626" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headset-icon lucide-headset"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/></svg> 
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={256}
+  height={256}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#272626"
+  strokeWidth={1}
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-headset-icon lucide-headset"
+>
+  <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z" />
+  <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+</svg>
+
           <div className="flex flex-col justify-center gap-2">
               <h3 className="text-xl font-medium text-emerald-400">Friendly customer service</h3>
               <p className='text-lg text-gray-600'> Our dedicated team is ready to promptly answer your questions and efficiently solve any problems you may face, ensuring a seamless and supportive experience.</p>
@@ -28,7 +60,23 @@ const WhyChooseUs = () => {
             </div>
           </div> 
           <div className="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24" fill="none" stroke="#272626" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download-icon lucide-download"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={128}
+  height={128}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#272626"
+  strokeWidth={1}
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="lucide lucide-download-icon lucide-download"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+
              <div className="flex flex-col justify-center gap-2">
               <h3 className="text-xl font-medium text-emerald-400">Free Downloads</h3>
               <p className='text-lg text-gray-600'>Pratice a pile of tests at your convenience of paper and pen.</p>

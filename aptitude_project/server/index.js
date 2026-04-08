@@ -1,8 +1,12 @@
 const express = require("express");
+const cors= require("cors");
+const path = require('path');
 const {PrismaClient} = require("@prisma/client");
 
 const app=express();
 const prisma= new PrismaClient();
+
+app.use(cors());
 
 // fetch  all news
 app.get("/news",async(req,res)=>{
@@ -15,7 +19,7 @@ app.get("/news",async(req,res)=>{
         res.status(500).json({message:"Couldn't fetch data", error: error})
     }});
 // fetch news by date
-app.get("/latestNews", async(req,res)=>{
+app.get("/api/latestNews", async(req,res)=>{
     try {
        const latestNews = await prisma.news.findFirst({
             orderBy: {
@@ -30,9 +34,11 @@ app.get("/latestNews", async(req,res)=>{
 })
 
 //fetch news by id
-app.get("/recentNews/:postNo", async(req,res)=>{
+app.get("/api/recentNews/:postNo", async(req,res)=>{
     try {
         const {postNo}= req.params;
+        
+        console.log(req.params);
         const newsById = await prisma.news.findUnique({
             where:{
                 postNo: postNo
@@ -44,6 +50,16 @@ app.get("/recentNews/:postNo", async(req,res)=>{
         res.status(500).json({message:"API failed", error: error})
     }
 })
-const PORT = 5500;
+
+// 1. Serve static files from the React app
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+// 2. The "catch-all" handler: for any request that doesn't
+// match one above, send back React's index.html file.
+app.get('/*splat', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
+
+const PORT = process.env.PORT || 5000;
 app.listen(PORT,()=>{console.log(`API is woking on ${PORT} `);
 })
