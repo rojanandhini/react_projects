@@ -1,6 +1,5 @@
 import {createBrowserRouter} from "react-router-dom"
 import HomeLayout from "../Layout/homeLayout";
-import MobNavBar from "../components/mobNavBar";
 import NewsDetails from "../pages/newsDetails";
 import ArticleDetails from "../pages/articleDetails";
 import ParentLayout from "../Layout/parentLayout";
