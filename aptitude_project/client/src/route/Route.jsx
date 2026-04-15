@@ -9,6 +9,7 @@ import ResetPassword from "../pages/resetPassword";
 import PrepTipsPage from "../pages/prepTipsPage";
 import Contact from "../pages/contact";
 import EmployerLayout from "../Layout/employerLayout";
+import NewsNArticlesPage from "../pages/newsNArticlesPage";
 
 export const Route = createBrowserRouter([
   {
@@ -26,11 +27,11 @@ export const Route = createBrowserRouter([
     element:<ArticleDetails/>
   },
 {
-    path: "/login",
+    path: "/api/login",
     element:<Login/>
   },
 {
-    path: "/register",
+    path: "/api/signup",
     element:<Register/>
   },
 {
@@ -40,6 +41,10 @@ export const Route = createBrowserRouter([
 {
     path: "/prepTips",
     element:<PrepTipsPage/>
+  },
+  {
+    path: "/newsNArticles",
+    element:<NewsNArticlesPage/>
   },
 {
     path: "/contact",

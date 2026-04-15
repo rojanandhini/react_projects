@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="flex justify-end items-center min-h-full mr-20">
         <div className="rounded-lg w-[200px] h-[100px] flex flex-col items-center backdrop-blur-[5px]">
           <h2 className='text-lg font-medium text-lime-500'>Your Dreams in Reach</h2>
-          <Link to="/register">
+          <Link to="/api/signup">
             <button className='text-2xl font-medium rounded-xl bg-orange-500 text-white px-3 py-1'>Register Now!</button>
           </Link>
         </div>

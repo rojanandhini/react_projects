@@ -5,8 +5,36 @@ import ResetPassword from "./resetPassword"
 
 export default function Login() {
   const { register, handleSubmit } = useForm()
-  const onSubmit = (data) => console.log(data)
 
+  const onSubmit = async (data) => {
+
+  try {
+    const response = await fetch("/api/login", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json', // Tells the BE to expect JSON
+      },
+      body: JSON.stringify(data), // Converts the form object to a string
+    });
+
+    const result = await response.json();
+
+    if (response.ok) {
+      console.log('Success:', result);
+      alert('Login Successful ...');
+
+  
+    } else {
+      // Handles backend validation errors (e.g., email already exists)
+      console.error('Server Error:', result);
+      alert(`Error: ${result.message || 'Registration failed'}`);
+    }
+  } catch (error) {
+    // Handles network errors (e.g., backend is down)
+    console.error('Network Error:', error);
+    alert('Could not connect to the server.');
+  }
+};
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="bg-amber-100 w-[50%] mx-auto flex flex-col items-center py-5">
@@ -25,7 +53,7 @@ export default function Login() {
         <div className="flex justify-between">
             <div className="flex">
             <label htmlFor="register">Not registered?</label>
-            <Link to="/register" className='text-blue-600 px-2 font-medium text-lg'>SignUp!</Link>
+            <Link to="/api/signup" className='text-blue-600 px-2 font-medium text-lg'>SignUp!</Link>
             </div>
 
             <div className="flex">

@@ -29,7 +29,7 @@ const Header = () => {
     </div>
     
     <div className="hidden lg:block">
-      <Link to="/login">
+      <Link to="/api/login">
       <button className="py-2 px-3 rounded-xl bg-orange-400 text-white font-medium text-lg">
         Login
       </button>
