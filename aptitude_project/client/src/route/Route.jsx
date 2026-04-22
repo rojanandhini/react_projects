@@ -10,6 +10,7 @@ import PrepTipsPage from "../pages/prepTipsPage";
 import Contact from "../pages/contact";
 import EmployerLayout from "../Layout/employerLayout";
 import NewsNArticlesPage from "../pages/newsNArticlesPage";
+import TestPage from "../pages/testPage";
 
 export const Route = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const Route = createBrowserRouter([
 {
     path: "/api/login",
     element:<Login/>
+  },
+  {
+    path: "/api/test/:slug",
+    element: <TestPage/>
   },
 {
     path: "/api/signup",

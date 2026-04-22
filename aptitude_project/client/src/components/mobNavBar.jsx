@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const MobNavBar = () => {
   return (
-    <div className="w-full bg-slate-200 py-3  min-[1001px]:hidden">
+    <div className="w-full bg-slate-200 py-3  lg:hidden">
         <div className="w-[75%] mx-auto ">
           <div className="flex justify-between">
               <Link to="/login" className="py-2 px-3 font-medium text-2xl text-orange-500">

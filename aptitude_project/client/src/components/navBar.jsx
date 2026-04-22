@@ -6,7 +6,7 @@ const NavBar = () => {
  // const [openIndex, setOpenIndex] = useState(false); onClick={() => setOpenIndex(true)}
  
   return (
-    <div className="w-full bg-slate-500 py-3 hidden md:block">
+    <div className="w-full bg-slate-500 py-3 hidden lg:block">
         <div className="w-[75%] mx-auto ">
             <div className="flex justify-between text-lg text-white">
             <button className='flex group '>

@@ -127,18 +127,8 @@ app.post("/api/login",async(req,res)=>{
 
             bcrypt.compare(loginData.password, password, function(err, result) {
                 if (result) {
-
-                    var tempToken = jwt.sign({ userId: isUserExists.userId, email : isUserExists.email }, "temp-room", {expiresIn: "10s"});
-
-                    var mainToken = jwt.sign({userId: isUserExists.userId, email : isUserExists.email  }, "main-room",{expiresIn:"20s"});
-
-                    const allData= {
-                        token:{
-                            tempToken,
-                            mainToken,
-                        }, ...restData
-                    };
-                     res.status(200).json({message:"Login successful",data:allData});
+                    
+                     res.status(200).json({message:"Login successful",data:restData});
 
                 } else {
                     res.status(401).json({message:"Incorrect Password"})
@@ -153,30 +143,21 @@ app.post("/api/login",async(req,res)=>{
     }
 })
 
-// POST => /refresh
-app.post("/api/refresh", (req, res) => {
-  // 1, Data from front-end
-  const data = req.body;
+// fetch testPage data
+app.get("/api/test/:slug", async (req, res)=>{
+    try {
+        const {slug} = req.params;
 
-  // 2, Db logic
-  jwt.verify(data.mainToken, "main-room", (err, decoded) => {
-    if (!err) {
-      const tempToken = jwt.sign(
-        {
-          userId: decoded.userId,
-          email: decoded.email,
-        },
-        "temp-room",
-        { expiresIn: "5s" },
-      );
-
-      res.status(200).json({ message: "Token Generated", data: tempToken });
-    } else {
-      res.status(401).json({ message: "Invalid Token" });
+    const testpageData = await prisma.testPage.findUnique({
+        where:{
+            slug : slug
+        }
+    });
+    res.status(200).json({message:"Data Fetch Successful", data: testpageData});
+    } catch (error) {
+    res.status(500).json({message:"Test couldn't be found", error: error})     ;
     }
-  });
-
-  // 3, Data to front-end
+    
 });
 
 // 1. Serve static files from the React app
