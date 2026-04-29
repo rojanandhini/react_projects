@@ -4,7 +4,8 @@ const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 const path = require('path');
 const {PrismaClient} = require("@prisma/client");
-
+const questionRoutes = require('./routes/questionRoutes');
+const qnEntry = require('./routes/qnEntry');
 const app=express();
 const prisma= new PrismaClient();
 
@@ -159,6 +160,10 @@ app.get("/api/test/:slug", async (req, res)=>{
     }
     
 });
+//next  question fetch
+//app.use('/api/questions', questionRoutes);
+//question fetch
+app.use('/api/questions', qnEntry);
 
 // 1. Serve static files from the React app
 app.use(express.static(path.join(__dirname, '../client/build')));

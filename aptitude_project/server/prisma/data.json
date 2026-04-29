@@ -1,0 +1,992 @@
+{
+  "numerical-ability": [
+    {
+      "question": "What is 15% of 200?",
+      "explanation": "0.15 * 200 = 30",
+      "options": [
+        { "text": "30", "isCorrect": true },
+         { "text": "20", "isCorrect": false },
+        { "text": "60", "isCorrect": false },
+        { "text": "40", "isCorrect": false },
+        { "text": "25", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The number &radic;3 is",
+      "explanation": "\\\\sqrt{3} \\\\ =1.7320508075688....",
+      "options": [
+        { "text": "a finite decimal", "isCorrect": false },
+         { "text": "an infinite recurring decimal", "isCorrect": false },
+        { "text": "equal to 1.732", "isCorrect": false },
+        { "text": "an infinite non-recurring decimal", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "2 – 2 + 2 – 2 + .......... 101 terms =?",
+      "explanation": "The given series is such that the sum of first hundred terms is zero, and 101st term is 2. So, the sum of 101 terms is 2.",
+      "options": [
+        { "text": "-2", "isCorrect": false },
+         { "text": "2", "isCorrect": true },
+        { "text": "0", "isCorrect": false },
+        { "text": "1", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "If x is an odd integer, then which of the following is true?",
+      "explanation": "x\\ is\\ odd\\ \\Longrightarrow \\ x^{2} \\ is\\ odd\\ \\Longrightarrow \\ 5x^{2} \\ is\\ odd\\Longrightarrow \\ \\left( 5x^{2} \\ +2\\right) \\ is\\ odd",
+      "options": [
+        { "text": "5x – 2 is even", "isCorrect": false },
+         { "text": "\\ 5x^{2} + 3 is odd", "isCorrect": false },
+        { "text": "\\ 5x^{2} + 2 is odd", "isCorrect": true },
+        { "text": "5x", "isCorrect": false },
+        { "text": "None of these", "isCorrect": false }
+      ]
+    },{
+      "question": "The difference between the square of any two consecutive integers is equal to",
+      "explanation": " \\\begin{array}{l} Let\\ x\\ and\\ ( x\\ +\\ 1) \\ \\ be\\ two\\ consecutive\\ integers.\\n Then( x\\ +\\ 1) 2\\ –\\ x2\\ =\\ ( x\\ +\\ 1\\ +\\ x) \\ ( x\\ +\\ 1\\ –\\ x) \\ =\\ ( x\\ +\\ 1\\ +\\ x)\\ \\times \\ 1=\\ ( x\\ +\\ 1\\ +\\ x) \\ =\\ sum\\ of\\ given\\ numbers.\\end{array}",
+      "options": [
+        { "text": "sum of two numbers", "isCorrect": true },
+         { "text": "difference of two numbers", "isCorrect": false },
+        { "text": "an even number", "isCorrect": false },
+        { "text": "product of two numbers", "isCorrect": false },
+        { "text": "None of these", "isCorrect": false }
+      ]
+    }
+    ,{
+      "question": "The prime numbers dividing 143 and leaving a remainder of 3 in each case are",
+      "explanation": "Each of the required numbers must divide (143 – 3) = 140 exactly.\nNow, 140 = 5 × 7 × 4.\nHence, the required prime numbers are 5 and 7.",
+      "options": [
+        { "text": "2 and 11", "isCorrect": false },
+         { "text": "11 and 13", "isCorrect": false },
+        { "text": "5 and 7", "isCorrect": true },
+        { "text": "3 and 7", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "Which one of the following is a prime number?",
+      "explanation": " \begin{array}{l}\\sqrt{437} \\  >\\ 20\\All\\ prime\\ numbers\\ less\\ than\\ 20\\ are\\ 2,\\ 3,\\ 5,\\ 7,\\ 11,\\ 13,\\ 17,19.\\ 161\\ is\\ divisible\\ by\\ 7,\\ 221\\ is\\ divisible\\ by\\ 13\\ and\\ 437\\ isdivisible\\ by\\ 19.\\ \\373\\ is\\ not\\ divisible\\ by\\ any\\ of\\ the\\ aboveprime\\ numbers.\\backslash \\ 373\\ is\\ prime.\\end{array}",
+      "options": [
+        { "text": "161", "isCorrect": false },
+         { "text": "221", "isCorrect": false },
+        { "text": "373", "isCorrect": true },
+        { "text": "437", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "The remainder obtained when any prime number greater than 6 is divided by 6 must be",
+      "explanation": "Let the required prime number be p. Let p when divided by 6 give n as quotient and r as remainder.\n Then p = 6n + r, where 0 ≤ r < 6\nNow, r = 0, r = 2, r = 3 and r = 4 do not give p as prime.\n\\textbackslash \\ r ≠ 0, r ≠ 2, r ≠ 3 and r ≠ 4.\nHence, r = 1 or r = 5",
+      "options": [
+        { "text": "either 1 or 2", "isCorrect": false },
+         { "text": "either 1 or 3", "isCorrect": false },
+        { "text": "either 1 or 5", "isCorrect": true },
+        { "text": "either 3 or 5", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "What is 394 times 113?",
+      "explanation": "394 × 113 = 394 × (100 + 10 + 3)\n= (394 × 100) + (394 × 10) + (394 × 3)\n= 39400 + 3940 + 1182\n= 44522.",
+      "options": [
+        { "text": "44402", "isCorrect": false },
+         { "text": "44522", "isCorrect": true },
+        { "text": "44632", "isCorrect": false },
+        { "text": "44802", "isCorrect": false },
+        { "text": "None of these", "isCorrect": false }
+      ]
+    },{
+      "question": "1260 ÷ 14 ÷ 9 =?",
+      "explanation": "1260\\ \\div \\ 14\\ \\div \\ 9\\ =\\ \\left( 1260*\\frac{1}{14} *\\frac{1}{9}\\right) =10",
+      "options": [
+        { "text": "9", "isCorrect": false },
+         { "text": "10", "isCorrect": true },
+        { "text": "81", "isCorrect": false },
+        { "text": "810", "isCorrect": false },
+        { "text": "None of these", "isCorrect": false }
+      ]
+    },{
+      "question": "8888 + 848 + 88 –? = 7337 + 737",
+      "explanation": "Let 8888 + 848 + 88 – x = 7337 + 737.\\nThen 9824 – x = 8074 \n ⇒ x = 9824 – 8074 \n ⇒ x = 1750.",
+      "options": [
+        { "text": "1450", "isCorrect": false},
+         { "text": "1550", "isCorrect": false },
+        { "text": "1650", "isCorrect": false },
+        { "text": "1750", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "(71 × 29 + 27 × 15 + 8 × 4) equals",
+      "explanation": "(71 × 29 + 27 × 15 + 8 × 4) = (80 – 9) × 29 + 405 + 32 = (80 × 29) – (9 × 29) + 437 = 2320 – 261 + 437 = 2757 – 261= 2496",
+      "options": [
+        { "text": "2496", "isCorrect": true },
+         { "text": "3450", "isCorrect": false },
+        { "text": "3458", "isCorrect": false },
+        { "text": "2935", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "The value of 112 × 54 is",
+      "explanation": "\\left( 112\\ \\times \\ 5^{4}\\right) \\ =\\ 112\\ \\times ( 10/2)^{4} =( 112*10000) /16=70000",
+      "options": [
+        { "text": "67000", "isCorrect": false },
+         { "text": "70000", "isCorrect": true },
+        { "text": "76500", "isCorrect": false },
+        { "text": "77200", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "The greatest four digit number which is exactly divisible by each one of the numbers 12, 18, 21 and 28",
+      "explanation": "The greatest 4 digit number is 9999\\n The LCM of 12, 18, 21, 28 is 252 \\n On dividing 9999 by 252 the remainder comes out to be 171 \\n\\ Required number = 9999 – 171 = 9828",
+      "options": [
+        { "text": "9288", "isCorrect": false },
+         { "text": "9882", "isCorrect": false },
+        { "text": "9828", "isCorrect": true },
+        { "text": "9928", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "The sum of two numbers is 2000 and their L.C.M. is 21879. The two numbers are",
+      "explanation": " \\begin{array}{l}Let\\ the\\ numbers\\ be\\ x\\ and\\ ( 2000\\ –\\ x)\\\\ \\n.Then,\\ their\\ L.C.M.\\ =\\ x\\ ( 2000\\ –\\ x)\\\\\\n.So,\\ x\\ ( 2000\\ –\\ x)\\\\\\\\\\ =\\ 21879\\Leftrightarrow \\ x^{2} \\ –\\ 2000x\\ +\\ 21879\\ =\\ 0\\Leftrightarrow \\ ( x\\ –\\ 1989) \\ ( x\\ –\\ 11)\\\\ \\\\ \\ =\\ 0\\Leftrightarrow \\ x\\ =\\ 1989\\ or\\ x\\ =\\ 11.Hence,\\ the\\ numbers\\ are\\ 1989\\ and\\ 11\\end{array}",
+      "options": [
+        { "text": "1993,7", "isCorrect": false },
+         { "text": "1991,9", "isCorrect": false },
+        { "text": "1989,11", "isCorrect": true },
+        { "text": "1987,13", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "A pendulum strikes 5 times in 3 seconds and another pendulum strikes 7 times in 4 seconds. \\nIf both pendulums start striking at the same time, how many clear strikes can be listened in 1 minute?",
+      "explanation": " \\begin{array}{l}First\\ pendulum\\ strikes\\ once\\ in\\ \\frac{3}{5} seconds.\\ Secondpendulum\\ strikes\\ once\\ in\\ \\frac{4}{7} seconds.\\\\ \\nL.C.M.\\ of\\ \\ \\frac{3}{5} \\ and\\frac{4}{7} =\\ \\frac{L.C.M.\\ of\\ \\ \\frac{3}{5}}{L.C.M.\\ of\\ \\ \\frac{4}{7}} =12\\ So,\\ they\\ strike\\ together\\ after\\ every\\ 12\\ seconds\\\\ \\n\\ .Thus,\\ they\\ strike\\ together\\left(\\frac{60}{12} +1\\right) =\\ 6\\ times\\ in\\ 1\\ minute.\\backslash \\\\ \\ Total\\ number\\ of\\ clear\\ strikes\\ heard=\\left[\\frac{60}{\\left(\\frac{3}{5}\\right)} +\\frac{60}{\\left(\\frac{4}{7}\\right)}\\right] -6=\\left( 60*\\frac{5}{3} +60*\\frac{7}{4}\\right) \\ -6 =\\ ( 100\\ +\\ 105) \\ –\\ 6\\ =\\ 199.\\end{array}",
+      "options": [
+        { "text": "195", "isCorrect": false },
+         { "text": "199", "isCorrect": true },
+        { "text": "200", "isCorrect": false },
+        { "text": "205", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "The sum of the three consecutive even numbers is 44 more than the average of these numbers.\nWhich of the following is the third largest of these numbers?",
+      "explanation": " \\begin{array}{l}Let\\ the\\ numbers\\ be\\ x,\\ x\\ +\\ 2\\ and\\ x\\ +\\ 4.Then,( x\\ +\\ x\\ +\\ 2\\ +\\ x\\ +\\ 4) \\ –\\ \\frac{\\ ( x\\ +\\ x\\ +\\ 2\\ +\\ x\\ +\\ 4)}{3} =44\\\\ \\Longrightarrow ( 3x+6) \\ -\\frac{( 3x+6)}{3} \\ \\ =44\\\\ \\Longrightarrow 2( 3x+6) =132\\Longrightarrow 6x=120\\\\ \\Longrightarrow x=20 \\end{array}",
+      "options": [
+        { "text": "16", "isCorrect": false },
+         { "text": "18", "isCorrect": false },
+        { "text": "24", "isCorrect": true },
+        { "text": "Cannot be determined", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "Ratio between the ages of Subhash, Prasad and Amar is 3 : 6 : 7. If the difference between the ages of Prasad and Amar is 10 years, then what is the difference between the ages of Subhash and Prasad?",
+      "explanation": "Let Subhash’s age be 3x years.\\n Then, Prasad’s age = 6x years and Amar’s age = 7x years.\\n∴ 7x – 6x = 10 \\n⇒ x = 10. \\n Required difference = (6x – 3x) years = 3x years = (3 × 10) years = 30 years",
+      "options": [
+        { "text": "5 years", "isCorrect": false },
+         { "text": "10 years", "isCorrect": false },
+        { "text": "20 years", "isCorrect": false },
+        { "text": "30 years", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": "Ten percent of twenty plus twenty percent of ten equals",
+      "explanation": "10\\%\\ of\\ 20\\ +\\ 20\\%\\ of\\ 10\\ =\\left(\\frac{10}{100} *20\\right) +\\left(\\frac{20}{100} *10\\right) =\\frac{2}{100}( 100+100) =\\frac{2}{100} \\ of\\ 200=\\ 2\\%\\ of\\ 200",
+      "options": [
+        { "text": "10 percent of 20", "isCorrect": false },
+         { "text": "20 percent of 10", "isCorrect": false },
+        { "text": "1 percent of 200", "isCorrect": false },
+        { "text": "2 percent of 200", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A man spends 35% of his income on food, 25% on children’s education and 80% of the remaining on house rent. What percent of his income he is left with?",
+      "explanation": " \\begin{array}{l}Let\\ the\\ total\\ income\\ be\\ x.Then,\\ income\\ left\\ =\\ ( 100\\ –\\ 80) \\%\\ of\\ [ 100\\ –\\ ( 35\\ +\\ 25)] \\%\\ ofx\\ \\=\\ 20\\%\\ of\\ 40\\%\\ of\\ x.=\\left(\\frac{20}{100} \\ *\\frac{40}{100} *100\\right) \\%\\ of\\ x=\\ 8\\%\\ of\\ x\\end{array}",
+      "options": [
+        { "text": "8%", "isCorrect": true },
+         { "text": "10%", "isCorrect": false },
+        { "text": "12%", "isCorrect": false },
+        { "text": "14%", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A man sold 18 cots for dhs.16,800, gaining thereby the cost price of 3 cots. The cost price of a cot is",
+      "explanation": " \\begin{array}{l} ( S.P.\\ of\\ 18\\ cots) \\ –\\ ( C.P.\\ of\\ 18\\ cots) \\ =\\ ( C.P.\\ of\\ 3\\ cots)\\ \\Rightarrow \\ C.P.\\ of\\ 21\\ cots\\ =\\ S.P.\\ of\\ 18\\ cots\\ =\\ Dhs.16800\\Rightarrow \\ C.P.\\ of\\ 1\\ cot\\ =\\left( \\ \\frac{16800}{21}\\right) \\ =\\ Dhs.\\ 800.\\end{array}",
+      "options": [
+        { "text": "Dhs.650", "isCorrect": false },
+         { "text": "Dhs.700", "isCorrect": false },
+        { "text": "Dhs.750", "isCorrect": false },
+        { "text": "Dhs.800", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Nikita bought 30 kg of wheat at the rate of Rs.9.50 per kg and 40 kg of wheat at the rate of Rs.8.50 per kg and mixed them. She sold the mixture at the rate of Rs.8.90 per kg. Her total profit or loss in the transaction was",
+      "explanation": " \\begin{array}{l} C.P.\\ of\\ 70\\ kg\\ wheat=\\ Rs\\ ( 30\\ \\times \\ 9.50\\ +\\ 40\\ \\times \\ 8.50) \\ =\\ Rs\\ ( 285\\ +\\ 340)\\ \\ =\\ Rs.\\ 625.S.P.\\ of\\ 70\\ kg\\ wheat=\\ Rs.\\ ( 70\\ \\times \\ 8.90)\\ \\ =\\ Rs.\\ 623.\\backslash \\ Loss\\ =\\ Rs.\\ ( 625\\ –\\ 623) \\ =\\ Rs.\\ 2.\\end{array}",
+      "options": [
+        { "text": "Rs.2 loss", "isCorrect": true },
+         { "text": "Rs.2 profit", "isCorrect": false },
+        { "text": "Rs.7 loss", "isCorrect": false },
+        { "text": "Rs.7 profit", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A clock was sold for Dhs.144. If the percentage of profit was numerically equal to the cost price, the cost of the clock was",
+      "explanation": " \\begin{array}{l} Let\\ C.P.\\ =Dhs.\\ x,\\ Profit\\%\\ =\\ x\\ \\%\\ and\\ S.P.\\ =\\ Dhs.\\ 144.\\backslash \\ x\\ =\\left[\\frac{100}{( 100+x)} \\ \\times \\ 144\\ \\right] \\ \\\\ =x^{2} \\ +100x\\ -14400\\ =0\\ \\Longrightarrow x^{2} \\ +180x\\ -80x\\ -14400=0\\Longrightarrow ( x+180)( x-80) =0\\Longrightarrow x=80\\end{array}",
+      "options": [
+        { "text": "Dhs.72", "isCorrect": false },
+         { "text": "Dhs.80", "isCorrect": true },
+        { "text": "Dhs.90", "isCorrect": false },
+        { "text": "Dhs.100", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "3 men or 6 women can do a piece of work in 20 days. In how many days will 12 men and 8 women do the same work?",
+      "explanation": " \\begin{array}{l}Let\\ the\\ required\\ number\\ of\\ days\\ be\\ x.3\\ men\\ \\equiv \\ 6\\ women\\ \\Leftrightarrow \\ 12\\ men\\ \\equiv \\ ( 2\\ \\times \\ 12)\\ \\ women=\\ 24\\ women.\\backslash \\ ( 12\\ men\\ and\\ 8\\ women) \\ \\equiv \\ ( 24\\ +\\ 8)\\\\\\ women\\ =\\ 32\\ women.Now,\\ More\\ women,\\ Less\\ days\\  \\backslash \\ 32\\ :\\ 6\\ :\\ :\\ 20\\ :\\ x\\ \\Leftrightarrow \\ 32x\\ =\\ 6\\ \\times \\ 20\\Leftrightarrow \\ x\\ =\\left(\\frac{6\\ *20\\ }{32}\\right) =\\frac{15}{4} =3\\frac{3}{4}\\end{array}",
+      "options": [
+        { "text": "3 and a half days", "isCorrect": false },
+         { "text": "3 and 3 quarters day", "isCorrect": true },
+        { "text": "4 days", "isCorrect": false },
+        { "text": "5 days", "isCorrect": false },
+        { "text": "20", "isCorrect": false }
+      ]
+    },{
+      "question": "49 pumps can empty a reservoir in 6\\frac{1}{2} \\  days, working 8 hours a day. If 196 pumps are used for 5 hours each day, then the same work will be completed in",
+      "explanation": " \\begin{array}{l} Let\\ the\\ required\\ number\\ of\\ days\\ be\\ x.\\ Then,More\\ pumps,\\ Less\\ days\\ ( Indirect\\ Proportion)\\ Less\\ working\\ hrs\\ /\\ day,\\ More\\ days\\ ( Indirect\\ Proportion)\\\\ \\therefore \\ 196\\ \\times \\ 5\\ \\times \\ x\\ =49\\times \\ 8\\times \\ \\frac{13}{2} \\ \\Longrightarrow x=\\frac{13}{5} \\ \\ =2\\frac{3}{5}\\end{array}",
+      "options": [
+        { "text": "2 days", "isCorrect": false },
+         { "text": " 2\\frac{1}{2} \\ days", "isCorrect": false },
+        { "text": "2\\frac{3}{5} \\ days", "isCorrect": true },
+        { "text": "3 days", "isCorrect": false },
+        { "text": "20", "isCorrect": false }
+      ]
+    }
+    ,{
+      "question": "A pipe can fill a tank in x hours and another pipe can empty it in y (y > x) hours. If both the pipes are open, in how many hours will the tank be filled?",
+      "explanation": "Net\\ part\\ filled\\ in\\ 1\\ hour\\ =\\frac{1}{x} \\ −\\ \\frac{1}{y} =\\left( \\ \\frac{y-x}{xy} \\ \\right) \\therefore \\ The\\ tank\\ will\\ be\\ filled\\ in\\ \\left(\\frac{xy}{y-x} \\ \\right) hours.",
+      "options": [
+        { "text": "(x-y) hours", "isCorrect": false },
+         { "text": "(y-x) hours", "isCorrect": false },
+        { "text": "\frac{xy|x-y} hours", "isCorrect": false },
+        { "text": "\frac{xy}{y-x} hours", "isCorrect": true },
+        { "text": "20", "isCorrect": false }
+      ]
+    },{
+      "question": "Four pipes can fill a reservoir in 15, 20, 30 and 60 hours respectively. The first pipe was opened at 8 a.m, second at 9 a.m., third at 10 a.m. and fourth at 11 a.m. When will the reservoir be full?",
+      "explanation": " \\begin{array}{l} Let\\ the\\ time\\ be\\ t\\ hours\\ after\\ 8\\ a.m.Then,\\ the\\ first\\ pipe\\ worked\\ for\\ t\\ hours;\\ \\\\ second\\ pipe\\ for( t\\ –\\ 1) \\ hours;\\ third\\ for\\ ( t\\ –\\ 2) \\ hours\\ and\\ fourth\\ for\\ ( t\\ –\\ 3) \\ hours.\\\\ \\therefore \\frac{t}{15} +\\frac{t-1}{20} +\\frac{t-2}{30} \\ +\\frac{t-3}{60} \\ =1\\ \\Longrightarrow 4t+3( t-1) +2( t-2) +( t-3) =60\\\\ \\Longrightarrow 10t=70\\Longrightarrow t=7 \\end{array}",
+      "options": [
+        { "text": "1 p.m.", "isCorrect": false },
+         { "text": "2 p.m.", "isCorrect": false },
+        { "text": "2.30 p.m.", "isCorrect": false },
+        { "text": "3 p.m", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A tank is 7 metre long and 4 metre wide. At what speed should water run through a pipe 5 cm broad and 4 cm deep so that in 6 hours and 18 minutes water level in the tank rise by 4.5 metre?",
+      "explanation": " \\begin{array}{l}Rate\\ of\\ flow\\ of\\ water\\ =\\ x\\ cm/minute\\ \\therefore \\ Volume\\ of\\ water\\ that\\ flowed\\ in\\ the\\ tank\\ in\\ 1\\ minutes=\\ 5\\ \\times \\ 4\\ \\times \\ x\\ =\\ 20x\\ cu.cm.\\ \\therefore \\ Volume\\ of\\ water\\ that\\ flowed\\ in\\ the\\ tank\\ in\\ 6\\ hours\\ 18minutes.\\ i.e.\\ ( 6\\ \\times \\ 60\\ +\\ 18) \\ =\\ 378\\ minutes=\\ 2\\ x\\ \\times \\ 378\\ cu.cm.\\ According\\ to\\ the\\ question,\\ 20x\\ \\times \\ 378\\ =\\ 700\\ \\times \\ 400\\ \\times \\ 450\\ \\Rightarrow x\\ =\\left(\\frac{700*400*450*60}{10000*20*378}\\right) km/hour=\\ 10\\ km/hour.\\end{array}",
+      "options": [
+        { "text": "10 km/hr", "isCorrect": true },
+         { "text": "12 km/hr", "isCorrect": false },
+        { "text": "8km/hr", "isCorrect": false },
+        { "text": "15 km/hr", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A man can swim in still water at a rate of 4 km/hr. The width of the river is 1 km. How long will he take to cross the river straight, if the speed of the current is 3 km/hr?",
+      "explanation": "Required\\ time\\ =\\ Time\\ taken\\ to\\ cover\\ 1\\ km\\ @\\ 4\\ kmph=\\left(\\frac{1}{4} \\ *60\\right) min\\ =15\\ min.",
+      "options": [
+        { "text": "10 mins", "isCorrect": false },
+         { "text": "15 mins", "isCorrect": true },
+        { "text": "18 mins", "isCorrect": false },
+        { "text": "20 mins", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A train crosses a platform 100 m long in 60 seconds at a speed of 45 km/hr. The time taken by the train to cross an electric pole is:",
+      "explanation": " \\begin{array}{l} Speed\\ =\\left( 45*\\frac{5}{18}\\right) \\ m/sec=\\left(\\frac{25}{2} \\ \\right) m/sec.Let\\ the\\ length\\ of\\ the\\ train\\ be\\ x\\ metres.\\ \\\\Then,\\frac{x+100}{\\left(\\frac{25}{2}\\right)} =\\ 60\\ or\\ x\\ =\\ 650\\ m.\\ \\ Time\\ taken\\ by\\ the\\ train\\ to\\ cross\\ an\\ electric\\ pole=\\left( 650*\\frac{2}{25} \\ \\right) sec\\ =\\ 52\\ sec.\\end{array}",
+      "options": [
+        { "text": "8 sec", "isCorrect": false },
+         { "text": "52 sec", "isCorrect": true },
+        { "text": "1 min", "isCorrect": false },
+        { "text": "Data inadequate", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Two trains travel in opposite directions at 36 kmph and 45 kmph and a man sitting in slower train passes the faster train in 8 seconds. The length of the faster train is :",
+      "explanation": " \\begin{array}{l} Relative\\ speed\\ =\\ ( 36\\ +\\ 45) \\ km/hr\\\\ =\\left( 81*\\frac{5}{18}\\right) \\ m/sec\\ =\\left(\\frac{45}{2}\\right) m/sec.\\\\ Length\\ of\\ train\\ =\\left(\\frac{45}{2} *8\\right) \\ m\\ =\\ 180\\ m.\\end{array}",
+      "options": [
+        { "text": "80m", "isCorrect": false },
+         { "text": "100m", "isCorrect": false },
+        { "text": "120m", "isCorrect": false },
+        { "text": "180m", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "20 litres of a mixture contains milk and water in the ratio 3 : 1. Then the amount of milk to be added to the mixture so as to have milk and water in ratio 4 : 1 i s",
+      "explanation": " \\begin{array}{l} In\\ 20\\ litres\\ of\\ mixture.Quantity\\ of\\ Milk\\ \\Rightarrow \\frac{3\\ }{4} \\ *20=15\\ liters.\\\\Quantity\\ of\\ Water\\ \\Rightarrow \\frac{1}{4} \\ *20=5\\ liters.Let\\ the\\ quantity\\ of\\ milk\\ added\\ be\\ x\\ liters.\\\\ According\\ to\\ the\\ question,\\frac{15\\ +\\ x}{5} \\ =\\ \\frac{4}{1} \\Rightarrow \\ 15\\ +\\ x\\ =\\ 4\\ \\times \\ 5\\Rightarrow \\ x\\ =\\ 20\\ –\\ 15\\ =\\ 5\\ liters \\end{array}",
+      "options": [
+        { "text": "7 l", "isCorrect": false },
+         { "text": "4 l", "isCorrect": false },
+        { "text": "5 l", "isCorrect": true },
+        { "text": "6 l", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "The length of a room is 5.5 m and width is 3.75 m. Find the cost of paving the floor by slabs at the rate of ` 800 per sq. metre.",
+      "explanation": "Area of the floor = (5.5 × 3.75) m2 = 20.625 m2.\\n\\ Cost of paving = ` (800 × 20.625) = ` 16500.",
+      "options": [
+        { "text": "15,000", "isCorrect": false },
+         { "text": "15,500", "isCorrect": false },
+        { "text": "15,600", "isCorrect": false },
+        { "text": "16,500", "isCorrect": true },
+        { "text": "20,000", "isCorrect": false }
+      ]
+    },{
+      "question": "A took 15 seconds to cross a rectanglar field diagonally walking at the rate of 52 m / min and B took the same time to cross the same field along its sides walking at the rate of 68 m / min. The area of the field is",
+      "explanation": " \\begin{array}{l}Length\\ of\\ diagonal\\ =\\left( 52*\\frac{15}{60} \\ \\right) m\\ =13\\ m\\ .Sum\\ of\\ length\\ and\\ breadth\\ =\\left( 68*\\frac{15}{60} \\ \\right) m\\ =\\ 17\\ m.\\ \\ \\sqrt{l^{2} +b^{2}} =\\ 13\\ or\\ l2\\ +\\ b2\\ =\\ 169\\ and\\ l\\ +\\ b\\ =\\ 17.\\ Area=\\ lb\\ =\\ \\frac{1}{2}( 2lb) =\\ \\frac{1}{2}\\left[( l+b)^{2} \\ -\\ \\left( l^{2} +b^{2}\\right)\\right] =\\frac{1}{2} \\ \\left[( 17)^{2} \\ -\\ 169\\right]\\ =\\ \\frac{1}{2}( 289-169) \\ =\\ 60\\ m^{2} \\ . \\end{array}",
+      "options": [
+        { "text": "30 sq. m", "isCorrect": false },
+         { "text": "40 sq. m", "isCorrect": false },
+        { "text": "50 sq. m", "isCorrect": false },
+        { "text": "60 sq.m", "isCorrect": true },
+        { "text": "20", "isCorrect": false }
+      ]
+    },{
+      "question": "A rectangle and a parallelogram have equal areas. If the sides of the rectangle are 10 m and 12 m and the base of the parallelogram is 20 m, then the altitude of the parallelogram is",
+      "explanation": "10\\ \\times \\ 12\\ =\\ 20\\ \\times \\ h\\ \\Rightarrow \\ h\\ =\\frac{120}{60} \\ =\\ 6\\ m",
+      "options": [
+        { "text": "3 m", "isCorrect": true },
+         { "text": "5 m", "isCorrect": false },
+        { "text": "6 m", "isCorrect": false },
+        { "text": "7 m", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A water tank is 30 m long, 20 m wide and 12m deep. It is made of iron sheet which is 3 m wide. The tank is open at the top. If the cost of the iron sheet is ` 10 per metre, then the total cost of the iron sheet required to build the tank is",
+      "explanation": "Since the tank is open at the top, we have: \\n Area of sheet required = Surface area of the tank \\n = lb + 2(bh + lh) \\n = [30 × 20 + 2(20 × 12 + 30 × 12)] m^{2} = (600 + 1200) m^2= 1800 m2.\\n Length of sheet required =(Area / Width) = (1800/3) = 600m \\n \\ Cost of the sheet = ` (600 × 10) = Rs. 6000",
+      "options": [
+        { "text": "Rs.6000", "isCorrect": true },
+         { "text": "Rs.8000", "isCorrect": false },
+        { "text": "Rs.9000", "isCorrect": false },
+        { "text": "Rs.10000", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A swimming pool 9 m wide and 12 m long is 1 m deep on the shallow side and 4 m deep on the deeper side. Its volume is :",
+      "explanation": "volume\\ =\\ \\left[ 12*9*\\left(\\frac{1+4}{2}\\right)\\right] \\ m^{3} \\ =( 12*9*2.5) \\ m^{3} =270\\ \\ m^{3}",
+      "options": [
+        { "text": "208 cu. m", "isCorrect": false },
+         { "text": "270 cu. m", "isCorrect": true },
+        { "text": "360 cu. m", "isCorrect": false },
+        { "text": "408 cu. m", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A cube of edge 20 cm is completely immersed in a rectangular vessel containing water. If the dimensions of the base of the vessel are 20 cm by 40 cm, the rise in water level will be",
+      "explanation": "Volume\\ increased\\ =\\ ( 20)^{3} \\ cm^{3} =\\ 8000\\ cm^{3}\\ \\ Rise\\ in\\ water\\ level\\ =\\left(\\frac{8000}{20*40}\\right) cm\\ =\\ 10\\ cm",
+      "options": [
+        { "text": "2 cm", "isCorrect": false },
+         { "text": "8 cm", "isCorrect": false },
+        { "text": "10 cm", "isCorrect": true },
+        { "text": "14 cm", "isCorrect": false },
+        { "text": "20 cm", "isCorrect": false }
+      ]
+    },{
+      "question": "A conical cavity is drilled in a circular cylinder of 15 cm height and 16 cm base diameter. The height and base diameter of the cone are the same as those of the cylinder. Determine the total surface area of the remaining solid.",
+      "explanation": " \\begin{array}{l} Total\\ surface\\ area\\ of\\ the\\ remainingsolid\\ \\ =\\ Curved\\ surface\\ area\\ of\\ thecylinder+\\ Area\\ of\\ the\\ base\\ of\\ the\\ cylinder+\\ Curved\\ surface\\ area\\ of\\ the\\ cone\\\\ =\\ 2\\pi rh\\ +\\ \\pi r^{2} \\ +\\ \\pi r\\sqrt{\\ r^{2} \\ +\\ h^{2}} =\\ 2\\pi \\ \\times \\ 8\\ \\times \\ 15\\ +\\ \\pi \\ \\times \\ 8^{2} \\ +\\ \\pi \\ \\times \\ 8\\ \\times \\sqrt{\\ 8^{2} \\ +\\ 15^{2}}\\\\ =\\ 240\\pi \\ +\\ 64\\pi \\ +\\ 136\\pi \\ =\\ 440\\pi \\ cm^{2} \\end{array}",
+      "options": [
+        { "text": "215 𝜋 cm\\power{2}", "isCorrect": false },
+         { "text": "376 𝜋 cm\\power{2}", "isCorrect": false },
+        { "text": "440 𝜋 cm\\power{2}", "isCorrect": true },
+        { "text": "542 𝜋 cm\\power{2}", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "The radii of two cones are in the ratio 2 : 1, their volumes are equal. Find the ratio of their heights.",
+      "explanation": " \\begin{array}{l} Let their radii be 2x, x and their heights be h and H respectively.Then,\\ \\h/H=1/4 \\end{array}",
+      "options": [
+        { "text": "1 : 8", "isCorrect": false },
+         { "text": "1 : 4", "isCorrect": true },
+        { "text": "2 : 1", "isCorrect": false },
+        { "text": "4 : 1", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A hemispherical bowls has 3.5cm radius. It is to be painted inside as well as outside. The cost of painting it at the rate of ` 5 per 10sq. cm will be",
+      "explanation": " \\begin{array}{l} Radius of a hemispherical bowl = 3.5cm.\\n Inner and outer surface areas of the bowl = 4\\uppi r^{2} =4 *\\frac{22}{7} * 3.5 *3.5= 154 sq. cm.\\ Total cost of painting at the rate of Dhs. 5 per 10 sq. cm.=154 * \\frac{5}{10}  = Dhs 77 \\end{array}",
+      "options": [
+        { "text": "Dhs. 77", "isCorrect": true },
+         { "text": "Dhs. 100", "isCorrect": false },
+        { "text": "Dhs. 175", "isCorrect": false },
+        { "text": "Dhs.50", "isCorrect": false },
+        { "text": "Dhs.20", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "For a certain month, the dates of three of the Sundays are even numbers. Then, the 15th of the that month falls on a",
+      "explanation": "The dates of three of the Sundays are even number is 2, 9, 16, 23, 30. So, on 16th of that month = Sunday, 15th of that month falls on a Saturday",
+      "options": [
+        { "text": "Thursday", "isCorrect": false },
+         { "text": "Friday", "isCorrect": false },
+        { "text": "Saturday", "isCorrect": true },
+        { "text": "Sunday", "isCorrect": false },
+        { "text": "Wednesday", "isCorrect": false }
+      ]
+    },{
+      "question": "The angle between the minute hand and the hour hand of a clock when the time is 8.30, is",
+      "explanation": " \\begin{array}{l}Angle\\ traced\\ by\\ hour\\ hand\\ in\\frac{17}{2} \\ hrs=\\left(\\frac{360}{12} *\\ \\frac{17}{2}\\right) \\degree =255\\degree .\\ Angle\\ traced\\ by\\ min.\\ hand\\ in\\ 30\\ min.\\ =\\left(\\frac{360}{60} *30\\right) \\degree =\\ 180\\ \\degree \\therefore \\ Required\\ angle\\ =\\ ( 255\\ –\\ 180) \\degree \\ =\\ 75\\degree \\end{array}",
+      "options": [
+        { "text": "80°", "isCorrect": false },
+         { "text": "75°", "isCorrect": true },
+        { "text": "60°", "isCorrect": false },
+        { "text": "105°", "isCorrect": false },
+        { "text": "20°", "isCorrect": false }
+      ]
+    },{
+      "question": "A clock is displaying correct time at 9am on Monday. If the clock loses 12 minutes in 24 hours, then the actual time when the clock indicates 8:30pm on Wednesday of the same week is",
+      "explanation": "Time interval from 9 am on Monday to 8 : 30 pm on Wednesday = 59 hours 30 minutes,Also 24 hours – 12 minutes Hence, the correct time is 30 minutes after 8 : 30 pm. i.e.pm.",
+      "options": [
+        { "text": "8pm", "isCorrect": false },
+         { "text": "7pm", "isCorrect": false },
+        { "text": "9pm", "isCorrect": true },
+        { "text": "8:45pm", "isCorrect": false },
+        { "text": "2pm", "isCorrect": false }
+      ]
+    },{
+      "question": "A committee of 5 members is to be formed out of 3 trainees, 4 professors and 6 research associates. In how many different ways can this be done if the committee should have 2 trainees and 3 research associates?",
+      "explanation": " \\begin{array}{l} Required\\ number\\ of\\ ways\\ =\\ ( 3C2\\ \\times \\ 6C3) \\ =\\ ( 3C1\\ \\times \\ 6C3)\\ =\\left( 3*\\frac{6*5*4}{3*2*1}\\right) =60 \\end{array}",
+      "options": [
+        { "text": "15", "isCorrect": false },
+         { "text": "45", "isCorrect": false },
+        { "text": "60", "isCorrect": true },
+        { "text": "9", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    }
+    ,{
+      "question": "In how many different ways can the letters of the word AUCTION be arranged in such a way that the vowels always come together?",
+      "explanation": "The given word contains 7 different letters.\\nKeeping the vowels (AUIO) together, we take them as 1 letter.\\n Then, we have to arrange the letters CTN(AUIO). \\n Now, 4 letters can be arranged in 4 = 24 ways The vowels (AUIO) can be arranged among themselves in 4 = 24 ways.\\n ∴ Required number of ways = (24 × 24) = 576.",
+      "options": [
+        { "text": "24", "isCorrect": false },
+         { "text": "48", "isCorrect": false },
+        { "text": "144", "isCorrect": false },
+        { "text": "576", "isCorrect":true },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "In an examination there are three multiple choice questions and each question has 4 choices. The number of ways in which a student can fail to get all answers correct is",
+      "explanation": "Number of ways of attempting 1st, 2nd, 3rd questions are each. \\n Total number of ways = 4^{3} = 4 × 4 × 4 = 64 \\n Number of ways, getting all correct answers = 13 = 1 \\n ∴ Number of ways of not getting all answer correct = 64 – 1 = 63",
+      "options": [
+        { "text": "11", "isCorrect": false },
+         { "text": "27", "isCorrect": false },
+        { "text": "12", "isCorrect": false },
+        { "text": "63", "isCorrect": true },
+        { "text": "20", "isCorrect": false }
+      ]
+    },{
+      "question": "In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize ?",
+      "explanation": " \\begin{array}{l} P\\ ( getting\\ a\\ prize) \\ =\\frac{10}{( 10+25)} =\\frac{10}{35} =\\frac{2}{7}\\ \\end{array}",
+      "options": [
+        { "text": "\frac{1|10}", "isCorrect": false },
+         { "text": "\frac{2}{5}", "isCorrect": false },
+        { "text": "\frac{2}{7}", "isCorrect": true },
+        { "text": "\frac{2}{7}", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "An urn contains 6 red, 4 blue, 2 green and 3 yellow marbles. If four marbles are picked up at random, what is the probability that 1 is green, 2 are blue and 1 is red ?",
+      "explanation": " \\begin{array}{l} Total\\ number\\ of\\ marbles\\ =\\ ( 6\\ +\\ 4\\ +\\ 2\\ +\\ 3) \\ =\\ 15.\\n \\Let\\ E\\ be\\ the\\ event\\ of\\ drawing\\ 1\\ green,\\ 2\\ blue\\ and\\ 1\\ red\\ marble.\\n Then,\\ n( E) \\ =\\ ( \\ 2C1*4c2*6c1) =2*\\frac{4*3}{2*1} *6=72\\n And,\\ n( S) \\ =\\ 15C4=\\frac{\\ 15\\times 14\\ \\times \\ 13\\times 12}{4*3*2*1} =1365\\n \\therefore \\ P( E) =\\frac{n( E)}{n( S)} =\\frac{72)}{1365} \\ =\\frac{24}{455} \\end{array}",
+      "options": [
+        { "text": "\frac{13}{35}", "isCorrect": false },
+         { "text": "\frac{24}{455}", "isCorrect": true },
+        { "text": "\frac{11}{15}", "isCorrect": false },
+        { "text": "\frac{1}{13}", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Two ships are sailing in the sea on the two sides of a lighthouse. The angles of elevation of the top of the lighthouse as observed from the two ships are 30° and 45° respectively. If the lighthouse is 100 m high, the distance between the two ships is",
+      "explanation": " \\begin{array}{l} Let\\ AB\\ be\\ the\\ lighthouse\\ and\\ C\\ and\\ D\\ be\\ thepositions\\ of\\ the\\ ships.\\n Then,\\ AB\\ =\\ 100\\ m,\\ \\angle \\ ACB\\ =\\ 30\\degree and\\ \\angle \\ ADB\\ =\\ 45\\degree .\\n \\ \\frac{AB}{AC} \\ =tan\\ 30\\degree \\n =\\frac{1}{\\sqrt{3}} \\Rightarrow \\ AC\\ =\\ AB\\ \\times \\sqrt{\\ 3} \\ =\\ 100\\ \\sqrt{3} \\ m.\\n frac{AB}{AD} =tan\\ 45\\degree =\\ 1\\n \\ \\Rightarrow \\ AD\\ =\\ AB\\ =\\ 100\\ m.\\n therefore \\ CD\\ =\\ ( AC\\ +\\ AD) \\ =\\ \\left( 100\\ \\sqrt{3} \\ +\\ 100\\right) m\\n =\\ 100\\ \\left( \\ \\sqrt{3} \\ +\\ 1\\right) m\\ =\\ ( 100\\ \\times \\ 2.73) \\ m\\ =\\ 273\\ m.\\end{array}",
+      "options": [
+        { "text": "173m", "isCorrect": false },
+         { "text": "200m", "isCorrect": false },
+        { "text": "273m", "isCorrect": true },
+        { "text": "300m", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "If a 30 m ladder is placed against a 15 m wall such that it just reaches the top of the wall, then the elevation of the wall is equal to",
+      "explanation": "AC\\ =\\ 30\\ meter\\ AB\\ =\\ 15\\ meter\\angle \\ ACB\\ =\\ \\uptheta \\therefore \\ sin\\uptheta \\ =\\frac{AB}{AC} \\ =\\frac{15}{30} \\ =\\frac{1}{2} \\Rightarrow \\ sin\\ \\uptheta \\ =\\ sin\\ 30º\\Rightarrow \\ \\uptheta \\ =\\ 30º",
+      "options": [
+        { "text": "45º", "isCorrect": false },
+         { "text": "30º", "isCorrect": true },
+        { "text": "60º", "isCorrect": false },
+        { "text": "50º", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Find out the wrong number in each sequence: 22, 33, 66, 99, 121, 279, 594",
+      "explanation": "Each number except 279 is a multiple of 11.",
+      "options": [
+        { "text": "33", "isCorrect": false },
+         { "text": "121", "isCorrect": false },
+        { "text": "279", "isCorrect": true },
+        { "text": "594", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Find the odd man out: 253, 136, 352, 460, 324, 631, 244",
+      "explanation": "Sum of the digits in each number, except 324 is 10.",
+      "options": [
+        { "text": "136", "isCorrect": false },
+         { "text": "324", "isCorrect": true },
+        { "text": "352", "isCorrect": false },
+        { "text": "631", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Find out the wrong number in each sequence: 8, 27, 125, 343, 1331",
+      "explanation": "The numbers are cubes of primes i.e., 2^{3}, 3^{3}, 5^{3}, 7^{3}, 11^{3}. Clearly, none is wrong.",
+      "options": [
+        { "text": "1331", "isCorrect": false },
+         { "text": "343", "isCorrect": false },
+        { "text": "125", "isCorrect": false },
+        { "text": "27", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": true }
+      ]
+    },{
+      "question": "Find the odd man out: 331, 482, 551, 263, 383, 242, 111",
+      "explanation": "In each number except 383, the product of first and third digits is the middle one.",
+      "options": [
+        { "text": "263", "isCorrect": false },
+         { "text": "383", "isCorrect": true },
+        { "text": "242", "isCorrect": false },
+        { "text": "111", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Insert the missing number: 4, – 8, 16, – 32, 64, (.....)",
+      "explanation": "Each number is the preceding number multiplied by – 2.So, the required number is – 128.",
+      "options": [
+        { "text": "128", "isCorrect": false },
+         { "text": "-128", "isCorrect": true },
+        { "text": "192", "isCorrect": false },
+        { "text": "-192", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Insert the missing number: 8, 7, 11, 12, 14, 17, 17, 22, (.....)",
+      "explanation": "There are two series (8, 11, 14, 17, 20) and (7, 12, 17, 22) increasing by 3 and 5 respectively.",
+      "options": [
+        { "text": "27", "isCorrect": false },
+         { "text": "20", "isCorrect": true },
+        { "text": "22", "isCorrect": false },
+        { "text": "24", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "What will come in the place of the question mark (?) in the following number series? 48, 23, ?, 4.25, 1.125",
+      "explanation": " \\begin{array}{l} 48,\\ 23,\\ ?,\\ 4.25,\\ 1.125.\\ It\\ follows\\ by\\ 2x\\ +\\ 2\\ series\\ from\\ R.H.S.\\ \\Rightarrow \\ ( 1.125) \\times \\ 2\\ +\\ 2\\ =\\ 4.25.4.25\\ \\times \\ 2\\ +\\ 2\\ =\\ 10.5.10.5\\ \\times \\ 2\\ +\\ 2\\ =\\ 23.23\\ \\times \\ 2\\ +\\ 2\\ =\\ 48\\Rightarrow \\ ?\\ =\\ 10.5 \\end{array}",
+      "options": [
+        { "text": "10", "isCorrect": false },
+         { "text": "10.5", "isCorrect": true },
+        { "text": "2.5", "isCorrect": false },
+        { "text": "11", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    }
+  ],
+  "verbal-reasoning": [ {
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different:  ",
+      "explanation": " Consecutive letters are there in all the other groups except ‘C’ where one letter has been skipped A(B)C.",
+      "options": [
+        { "text": "KL", "isCorrect": false },
+         { "text": "OP", "isCorrect": false },
+        { "text": "AC", "isCorrect": true },
+        { "text": "NO", "isCorrect": false },
+        { "text": "WX", "isCorrect": false }
+      ]
+    } , {
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": " Here each pair consists of one consonant and one vowel, except in ‘B’ where both the letters are vowels.",
+      "options": [
+        { "text": "PU", "isCorrect": false },
+         { "text": "AO", "isCorrect": true },
+        { "text": "IZ", "isCorrect": false },
+        { "text": "KI", "isCorrect": false },
+        { "text": "LE", "isCorrect": false }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "Here except ‘A’ all the other groups consist of three consecutive letters. In ‘A’ one letter has been skipped K(L)MN.",
+      "options": [
+        { "text": "KMN", "isCorrect": true },
+         { "text": "BCD", "isCorrect": false },
+        { "text": "WXY", "isCorrect": false },
+        { "text": "PQR", "isCorrect": false },
+        { "text": "FGH", "isCorrect": false }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "In all the other groups every alternate letter is either small or capital. But in ‘E’ two consecutive letters in the beginning are small.",
+      "options": [
+        { "text": "pQRS", "isCorrect": false },
+         { "text": "dEfG", "isCorrect": false },
+        { "text": "bCdE", "isCorrect": false },
+        { "text": "kLmN", "isCorrect": false },
+        { "text": "uvWX", "isCorrect": true }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "In each group except ‘E’ there is only one vowel but in ‘E’ there are two vowels, ‘o’ and ‘i’.",
+      "options": [
+        { "text": "Bond", "isCorrect": false },
+         { "text": "Ball", "isCorrect": false },
+        { "text": "Pick", "isCorrect": false },
+        { "text": "Talk", "isCorrect": false },
+        { "text": "Boil", "isCorrect": true }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "In each group except ‘E’ there is only one vowel but in ‘E’ there are two vowels, ‘o’ and ‘i’.",
+      "options": [
+        { "text": "DDEEFF", "isCorrect": false },
+         { "text": "KKLLMM", "isCorrect": false },
+        { "text": "AABCDD", "isCorrect": true },
+        { "text": "PPQQRR", "isCorrect": false },
+        { "text": "MMNNOO", "isCorrect": false }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "In all the other groups no letter has been repeated but in (A), the letter ‘R’ has been repeated.",
+      "options": [
+        { "text": "RsuR", "isCorrect": true },
+         { "text": "MnpR", "isCorrect": false },
+        { "text": "BceG", "isCorrect": false },
+        { "text": "KlnP", "isCorrect": false },
+        { "text": "PqsU", "isCorrect": false }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "All the other groups, except ‘C’ consist of letters and numbers and both are skipped, e.g. 4A(5)6(B)C, 2(3)D4(E)F, etc. But in (C) letters are skipped while numbers are not.",
+      "options": [
+        { "text": "4A6C", "isCorrect": false },
+         { "text": "2D4F", "isCorrect": false },
+        { "text": "5K6M", "isCorrect": true },
+        { "text": "7P9R", "isCorrect": false },
+        { "text": "1B3D", "isCorrect": false }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "Here the factor is the form of the letter. Except M all the letters are formed by 3 straight lines. Whereas ‘M’ is formed by 4 lines.",
+      "options": [
+        { "text": "A", "isCorrect": false },
+         { "text": "F", "isCorrect": false },
+        { "text": "H", "isCorrect": false },
+        { "text": "M", "isCorrect": true },
+        { "text": "K", "isCorrect": false }
+      ]
+    },{
+      "question": "In question below group of letters/alphabets/words are given. Find out the group which is different: ",
+      "explanation": "Here also the form of the letters are concerned. Except ‘T’ all are curved letters.",
+      "options": [
+        { "text": "O", "isCorrect": false },
+         { "text": "S", "isCorrect": false },
+        { "text": "G", "isCorrect": false },
+        { "text": "C", "isCorrect": false },
+        { "text": "T", "isCorrect": true }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out",
+      "explanation": " All the other words are synonyms of Dishonor. Elope: Run Off",
+      "options": [
+        { "text": "Abase", "isCorrect": false },
+         { "text": "Lower", "isCorrect": false },
+        { "text": "Humiliate", "isCorrect": false },
+        { "text": "Degrade", "isCorrect": false },
+        { "text": "Elope", "isCorrect": true }
+      ]
+    } , {
+      "question": "Understand the relationship and Find the odd one out",
+      "explanation": " All the other words are synonyms of Appreciation. Hiss: Disapproval",
+      "options": [
+        { "text": "Hiss", "isCorrect": true },
+         { "text": "Extol", "isCorrect": false },
+        { "text": "Praise", "isCorrect": false },
+        { "text": "Cheer", "isCorrect": false },
+        { "text": "Applaud", "isCorrect": false }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out ",
+      "explanation": "Except ‘B’ all the other words have 6 letters.",
+      "options": [
+        { "text": "Course", "isCorrect": false },
+         { "text": "Bless", "isCorrect": true },
+        { "text": "Murder", "isCorrect": false },
+        { "text": "Answer", "isCorrect": false },
+        { "text": "Letter", "isCorrect": false }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out ",
+      "explanation": "Except ‘C’ all the other words begin with a vowel",
+      "options": [
+        { "text": "Eye", "isCorrect": false },
+         { "text": "Atom", "isCorrect": false },
+        { "text": "Blast", "isCorrect": true },
+        { "text": "Occur", "isCorrect": false },
+        { "text": "Ugly", "isCorrect": false }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out",
+      "explanation": "Except ‘B’ all the others are of the cat family.",
+      "options": [
+        { "text": "Tiger", "isCorrect": false },
+         { "text": "Leopard", "isCorrect": true },
+        { "text": "Cat", "isCorrect": false },
+        { "text": "Fox", "isCorrect": false },
+        { "text": "Cougar", "isCorrect": false }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out ",
+      "explanation": "Here (C) is the answer, as all the other four i.e., Gold, Iron, Copper and Silver are all metals and only diamond is a gem and not metal.",
+      "options": [
+        { "text": "Gold", "isCorrect": false },
+         { "text": "Iron", "isCorrect": false },
+        { "text": "Diamond", "isCorrect": true },
+        { "text": "Copper", "isCorrect": false },
+        { "text": "Silver", "isCorrect": false }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out",
+      "explanation": "The only water flower.",
+      "options": [
+        { "text": "Rose", "isCorrect": false},
+         { "text": "Lotus", "isCorrect": true },
+        { "text": "Jasmine", "isCorrect": false },
+        { "text": "Tube Rose", "isCorrect": false },
+        { "text": "Dahlia", "isCorrect": false }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out ",
+      "explanation": "Only single person while others are functioning bodies of certain members.",
+      "options": [
+        { "text": "Committee", "isCorrect": false },
+         { "text": "Council", "isCorrect": false },
+        { "text": "Panel", "isCorrect": false },
+        { "text": "Cabinet", "isCorrect": false },
+        { "text": "Secretary", "isCorrect": true }
+      ]
+    },{
+      "question": "Understand the relationship and Find the odd one out",
+      "explanation": "Only group where double letters are skipped.",
+      "options": [
+        { "text": "HIKL", "isCorrect": false },
+         { "text": "LMPQ", "isCorrect": true },
+        { "text": "DEGH", "isCorrect": false },
+        { "text": "RSUV", "isCorrect": false },
+        { "text": "KLNO", "isCorrect": false }
+      ]
+    },{
+      "question": " Understand the relationship and Find the odd one out",
+      "explanation": "In all the other groups position numbers are given according to the alphabetical sequences.But in ‘C’ it is just reversed, i.e., instead of ‘F65E’ it is ‘F56E’.",
+      "options": [
+        { "text": "B21A", "isCorrect": false },
+         { "text": "D43C", "isCorrect": false },
+        { "text": "F56E", "isCorrect": true },
+        { "text": "H87G", "isCorrect": false },
+        { "text": "198H", "isCorrect": false }
+      ]
+    },{
+      "question": "Find out the word by rearranging the letters and mark the last letter from given alternatives: ATHRE",
+      "explanation": " The word is ‘EARTH’, so ‘H’ is the last letter. Here the other possible word is ‘Heart’, but as among the answer choices ‘T’ is not there, so this word has not been considered.",
+      "options": [
+        { "text": "E", "isCorrect": false },
+         { "text": "R", "isCorrect": false },
+        { "text": "H", "isCorrect": true },
+        { "text": "A", "isCorrect": false },
+        { "text": "T", "isCorrect": false }
+      ]
+    } , {
+      "question": "Choose from the other four pairs of words, the pair which best expresses the same relationship as the given words. ORDER : ANARCHY",
+      "explanation": "The relationship among the words in questions are opposite in meaning. iniquitous is opposite of ‘virtue’",
+      "options": [
+        { "text": "Iniquitous : Virtue", "isCorrect": true },
+         { "text": "Renounce : Abjure", "isCorrect": false },
+        { "text": "Ablution : Survival", "isCorrect": false },
+        { "text": "Courtesy : Despair", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Choose from the other four pairs of words, the pair which best expresses the same relationship as the given words. MAGNIFICENT : GRANDIOSE",
+      "explanation": "Grandiose means magnificent and Dwindle means lessen.",
+      "options": [
+        { "text": "Praising : Derogatory", "isCorrect": false },
+         { "text": "Lessen : Dwindle", "isCorrect": true },
+        { "text": "Reconcile : Alienate", "isCorrect": false },
+        { "text": "Devoid : Suspecting", "isCorrect": false },
+        { "text": "FGH", "isCorrect": false }
+      ]
+    },{
+      "question": "Choose from the other four pairs of words, the pair which best expresses the same relationship as the given words.FLURRY : BLIZZARD ",
+      "explanation": "A flurry of snow is less extreme than ‘Blizzard’ and ‘Tempest’ is the extreme form of ‘gale’. Here ‘D’ has got the same relationship but the sequence is different.",
+      "options": [
+        { "text": "Hail : Storm", "isCorrect": false },
+         { "text": "Snow : Rain", "isCorrect": false },
+        { "text": "Gale : Tempest", "isCorrect": true },
+        { "text": "Storm : Wind", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": " IF SR : BA then DC : ? ",
+      "explanation": "In reverse alphabetic sequence.",
+      "options": [
+        { "text": "AB", "isCorrect": false },
+         { "text": "DE", "isCorrect": false },
+        { "text": "FE", "isCorrect": true },
+        { "text": "XU", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Complete the Sequence: XX_Y_XXXXY_XXXXXY_X",
+      "explanation": "Here the pattern is 3X2Y, 4X2Y, 5X2Y and so on",
+      "options": [
+        { "text": "YXYY", "isCorrect": false },
+         { "text": "YXXX", "isCorrect": true },
+        { "text": "XYXX", "isCorrect": false },
+        { "text": "XYYY", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": " Complete the sequence: ccb ? c ? bacc ? a ? cba",
+      "explanation": "Pattern will be ccba, ccba .....",
+      "options": [
+        { "text": "abca", "isCorrect": false },
+         { "text": "bcac", "isCorrect": false },
+        { "text": "acbc", "isCorrect": true },
+        { "text": "ccba", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "If ‘JOIN’ is coded as ‘MRLQ’, what should be the code of ‘BEAT’? ",
+      "explanation": "Here the codes are formed by skipping two letters forward, i.e., J(KL)M, O(PQ)R, I(JK)L, N(OP)Q. So, B(CD)E, E(FG)H, A(BC)D, T(UV)W.",
+      "options": [
+        { "text": "EDHW", "isCorrect": false },
+         { "text": "DGCV", "isCorrect": false },
+        { "text": "EHDW", "isCorrect": true },
+        { "text": "CFBU", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": " In a certain code, the word ‘BEG’ is written as ‘257’. What should be the code for the word ‘CACHE’?",
+      "explanation": "Here the letters are coded according to their position numbers in the alphabet, i.e. A=1, B=2, C=3, etc. Hence, C=3, A=1, C=3, H=8, E=5, or 31385=(A).",
+      "options": [
+        { "text": "31385", "isCorrect": true },
+         { "text": "38135", "isCorrect": false },
+        { "text": "31358", "isCorrect": false },
+        { "text": "35183.", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },{
+      "question": " If ‘SCHOOL’ is coded as ‘22-6-11-18-18-15’, what should be the code for the word ‘TEACHER’?",
+      "explanation": "Random sequence numbering, taking A=4, B=5, C=6, and so on.",
+      "options": [
+        { "text": "23-8-3-6-11-8-22", "isCorrect": false },
+         { "text": "23-8-4-6-11-8-23", "isCorrect": false },
+        { "text": "23-8-4-6-11-8-21", "isCorrect": true },
+        { "text": "20-5-1-3-8-5-18", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "A shopkeeper uses a code name ‘BUDGETAR’ with a value of 36, where B=Rs. 1, U=Rs. 2, D=Rs.3, and so on. What should be the price of ‘BREAD’?",
+      "explanation": " (A) B=1, R=8, E=5, A=7, D=3 or 1+8+5+7+3 = 24 = (A).",
+      "options": [
+        { "text": "Rs. 24", "isCorrect": true },
+         { "text": "Rs. 36", "isCorrect": false },
+        { "text": "Rs. 16", "isCorrect": false },
+        { "text": "Rs. 42.", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    } , {
+      "question": " A shopkeeper uses a code SI+LWOXHAP = 45, where S = Rs. 1, I = Rs. 2, L = Rs. 3, and so on, The price of which article is Rs. 23?",
+      "explanation": " S=1, O=5, A=8, P=9; 1+5+8+9=23",
+      "options": [
+        { "text": "SOAP", "isCorrect": true },
+         { "text": "POLISH", "isCorrect": false },
+        { "text": "OIL", "isCorrect": false },
+        { "text": "SILL", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "You are walking straight in the afternoon, then turned left. While proceeding farther you noticed your shadow in your right, in which direction you started walking in the beginning? ",
+      "explanation": "Here, afternoon sun is in the ‘west’, so if we travel ‘north’ only then our shadow would be in the ‘right’. So at the final stage he was walking towards north. But before that he made a turn left, so initially he was travelling towards east",
+      "options": [
+        { "text": "Towards the north", "isCorrect": false },
+         { "text": "Towards the east", "isCorrect": true },
+        { "text": "Towards the south", "isCorrect": false },
+        { "text": "Towards the west", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Kishenkant walks 10 km towards north. From there he walks 6 km towards south. Then he walks 3 km towards east. How far and in which direction he is with reference to his starting point? ",
+      "explanation": "Kishenkant starts from O goes to A 10 km north and back to B 6 km south and finally goes to C which is 3 km east. Clearly ‘C’ is north east of ‘O’ his starting point. Now the distance is 5km NE by pythogoras theorem",
+      "options": [
+        { "text": "5 km West", "isCorrect": false },
+         { "text": "5 km North-East", "isCorrect": true },
+        { "text": "7 km. East", "isCorrect": false },
+        { "text": "7 km West", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": " Bikash, pointing to his son’s picture, said to a woman. “His mother is the only daughter of your father”. How was the woman related to Bikash?",
+      "explanation": "Bikash’s son’s mother is Bikash’s wife",
+      "options": [
+        { "text": "Mother", "isCorrect": false },
+         { "text": "Sister", "isCorrect": false },
+        { "text": "Niece", "isCorrect": false },
+        { "text": "Wife", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": true }
+      ]
+    },{
+      "question": " A is father of C and D is son of B. E is brother of A. If C is sister of D, how is B related to ‘E’?",
+      "explanation": "Sister-in-law. Here, A is the father of C who is the sister of D; so, A is also the father of D who is also the son of B, so C’s mother must be B, and as E is the brother of A and B is the wife of A, so, B is the sister-in-law of E.",
+      "options": [
+        { "text": "Daughter", "isCorrect": false },
+         { "text": "Brother-in-law", "isCorrect": false },
+        { "text": "Husband", "isCorrect": false },
+        { "text": "Sister-in-law", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Data Sufficiency: Usha came first in the race. \\n I. Usha broke all the previous world records in the race. \\n II. Usha left all other runners far behind at the finishing line of the race.",
+      "explanation": "Statement II clearly indicates that Usha left behind all the other runners in the finishing line of the race.",
+      "options": [
+        { "text": "The statement I alone is sufficient to answer the question.", "isCorrect": false },
+         { "text": "The statement II alone is sufficient to answer the question.", "isCorrect": true },
+        { "text": "Both the statements I and II are required to answer the question.", "isCorrect": false },
+        { "text": "Neither the statements I nor II is sufficient to answer the question.", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": "Data Sufficiency: How many sons does X have? \\n I. B and D are brothers of F. \\n II. K is the sister of A and B. \\n III. K and F are daughters of X.",
+      "explanation": "From all the statements together we can’t find the answer of the question.",
+      "options": [
+        { "text": "I and II only.", "isCorrect": false },
+         { "text": "II & III only.", "isCorrect": false },
+        { "text": "I, II and III only", "isCorrect": false },
+        { "text": "I, II & III together are not sufficient.", "isCorrect": true },
+        { "text": "None of these", "isCorrect": false }
+      ]
+    },{
+      "question": "Syllogism: Given facts:\\n Sohan is stronger than Rahim. \\n Rahim is weaker than John.\\n Conclusions:\\n Rahim is weaker than Sohan.",
+      "explanation": "Sohan > Rahim and Rahim < John",
+      "options": [
+        { "text": "True", "isCorrect": true },
+         { "text": "False", "isCorrect": false },
+        { "text": "Uncertain", "isCorrect": false },
+        { "text": "Couldn't tell", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
+      ]
+    },{
+      "question": " Proverb: Faint heart never won fair lady.",
+      "explanation": "All the other alternatives are not appropriate.",
+      "options": [
+        { "text": "One should be bold enough to achieve some extraordinary thing.", "isCorrect": true },
+         { "text": "Those who faint easily, cannot get beautiful wives.", "isCorrect": false },
+        { "text": "Ladies do not like men who have heart trouble.", "isCorrect": false },
+        { "text": "Strong men always have some weakness towards pretty women.", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": true }
+      ]
+    }]
+}

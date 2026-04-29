@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'; // Assuming you use react-router
 import useTestPageFetch from '../hooks/useTestPageFetch';
-
+import { Link } from 'react-router-dom';
 const TestPage = () => {
     const { slug } = useParams(); // Get the slug from the URL
     const test = useTestPageFetch(slug);
@@ -47,9 +47,10 @@ const TestPage = () => {
                 </div>
 
                 {/* Call to Action */}
+                <Link to={`/quiz/entry/${slug}`}>
                 <button className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition">
-                    Start Practice Test
-                </button>
+                    Start {slug} Practice Test
+                </button></Link>
             </div>
         </div>
     );

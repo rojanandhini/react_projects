@@ -11,6 +11,9 @@ import Contact from "../pages/contact";
 import EmployerLayout from "../Layout/employerLayout";
 import NewsNArticlesPage from "../pages/newsNArticlesPage";
 import TestPage from "../pages/testPage";
+import EntryPage from "../pages/quiz/entryPage";
+import Quiz from "../pages/quiz/quiz";
+import Results from "../pages/quiz/results";
 
 export const Route = createBrowserRouter([
   {
@@ -59,5 +62,16 @@ export const Route = createBrowserRouter([
   {
     path:"/employer",
     element:<EmployerLayout/>
+  },
+  {
+    path:"/quiz/entry/:slug",
+    element:<EntryPage/>
+  },
+  {
+    path:"/quiz/:slug",
+    element:<Quiz/>
+  },{
+    path:"/results",
+    element:<Results/>
   }
 ]);
