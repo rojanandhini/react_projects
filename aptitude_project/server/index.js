@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 const path = require('path');
 const {PrismaClient} = require("@prisma/client");
-const questionRoutes = require('./routes/questionRoutes');
+
 const qnEntry = require('./routes/qnEntry');
 const app=express();
 const prisma= new PrismaClient();
@@ -128,8 +128,17 @@ app.post("/api/login",async(req,res)=>{
 
             bcrypt.compare(loginData.password, password, function(err, result) {
                 if (result) {
-                    
-                     res.status(200).json({message:"Login successful",data:restData});
+                    var tempToken = jwt.sign({ userId: isUserExists.userId, email : isUserExists.email }, "temp-room", {expiresIn: "2h"});
+
+                    var mainToken = jwt.sign({userId: isUserExists.userId, email : isUserExists.email  }, "main-room",{expiresIn:"7d"});
+
+                    const allData= {
+                        token:{
+                            tempToken,
+                            mainToken,
+                        }, ...restData
+                    };
+                     res.status(200).json({message:"Login successful",data:allData});
 
                 } else {
                     res.status(401).json({message:"Incorrect Password"})
@@ -160,8 +169,7 @@ app.get("/api/test/:slug", async (req, res)=>{
     }
     
 });
-//next  question fetch
-//app.use('/api/questions', questionRoutes);
+
 //question fetch
 app.use('/api/questions', qnEntry);
 

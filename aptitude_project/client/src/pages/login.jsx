@@ -1,10 +1,12 @@
 import { useForm } from "react-hook-form"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import ResetPassword from "./resetPassword"
 
 
 export default function Login() {
   const { register, handleSubmit } = useForm()
+
+  const navigate= useNavigate();
 
   const onSubmit = async (data) => {
 
@@ -22,7 +24,7 @@ export default function Login() {
     if (response.ok) {
       console.log('Success:', result);
       alert('Login Successful ...');
-
+      navigate("/userLogin");
   
     } else {
       // Handles backend validation errors (e.g., email already exists)

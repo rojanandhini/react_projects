@@ -1,22 +1,23 @@
-import React from "react";
 import { useState, useEffect } from "react";
-const useTimer = () => {
-  const [second, setSecond] = useState(3600);
+
+const useTimer = (initialMinutes = 45) => {
+  const [secondsLeft, setSecondsLeft] = useState(initialMinutes * 60);
+
   useEffect(() => {
-    if (second <= 1) return;
+    if (secondsLeft <= 0) return;
+
     const interval = setInterval(() => {
-      setSecond((s) => s - 1);
+      setSecondsLeft((s) => s - 1);
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [second]);
-  const minute = Math.floor(second / 60);
-  const seconds = second % 60;
-  return (
-    <div>
-      Time Remaining: {minute}:{seconds.toString().padStart(2, '0')}
-    </div>
-  );
+  }, [secondsLeft]);
+
+  const minutes = Math.floor(secondsLeft / 60);
+  const secs = secondsLeft % 60;
+  const timeDisplay = `${minutes}:${secs.toString().padStart(2, '0')}`;
+
+  return { secondsLeft, timeDisplay };
 };
 
 export default useTimer;

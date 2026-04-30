@@ -14,6 +14,8 @@ import TestPage from "../pages/testPage";
 import EntryPage from "../pages/quiz/entryPage";
 import Quiz from "../pages/quiz/quiz";
 import Results from "../pages/quiz/results";
+import UserLayout from "../Layout/userLayout";
+import NewsNarticles from "../components/newsNarticles";
 
 export const Route = createBrowserRouter([
   {
@@ -58,6 +60,26 @@ export const Route = createBrowserRouter([
     path: "/contact",
     element:<Contact/>
   },]
+  },
+  {
+    path:"/userLogin",
+    element:<UserLayout/>,
+    children:[{
+    path: "/userLogin",
+    element:<NewsNarticles/>
+  },{
+    path: "/userLogin/contact",
+    element:<Contact/>
+  },{
+    path: "/userLogin/prepTips",
+    element:<PrepTipsPage/>
+  }, {
+    path: "/userLogin/newsNArticles",
+    element:<NewsNArticlesPage/>
+  },{
+    path: "/userLogin/api/test/:slug",
+    element: <TestPage/>
+  }]
   },
   {
     path:"/employer",

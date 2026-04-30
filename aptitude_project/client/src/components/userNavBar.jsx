@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AptitudeDropdown from './aptitudeDropdown';
 
-const NavBar = () => {
+import UserAptitude from './userAptitude';
+
+const UserNavBar = () => {
  
   return (
     <div className="w-full bg-slate-500 py-3 hidden lg:block">
@@ -27,18 +28,17 @@ const NavBar = () => {
                   </svg>
                 </div>
                 <div className="pt-5 absolute hidden group-hover:block">
-                  <AptitudeDropdown/>
+                  <UserAptitude/>
                 </div>
               </button>
-            <Link to="/prepTips">Preparation Tips</Link>
+            <Link to="/userLogin/prepTips">Preparation Tips</Link>
             
-            <Link to="/newsNArticles">Articles &amp; News</Link>
-            <Link to="/employer">Employers</Link>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/userLogin/newsNArticles">Articles &amp; News</Link>
+            <Link to="/userLogin/contact">Contact Us</Link>
             </div>
         </div>
     </div>
   )
 }
 
-export default NavBar
+export default UserNavBar

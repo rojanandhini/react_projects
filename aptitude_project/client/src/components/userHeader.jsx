@@ -2,17 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import NameAndLogo from "./header/nameAndLogo";
-import LoginAndBurger from "./header/loginAndBurger";
+import UserBurger from "./header/userBurger";
 
-const Header = () => {
+const UserHeader = () => {
   return (
     <div className="w-[75%] mx-auto my-2 p-3 flex justify-between">
-      <Link to="/">
+      <Link to="/userLogin">
         <NameAndLogo />
       </Link>
-      <LoginAndBurger />
+      <UserBurger/>
     </div>
   );
 };
 
-export default Header;
+export default UserHeader;
