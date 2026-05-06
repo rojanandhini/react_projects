@@ -6,6 +6,7 @@ const path = require('path');
 const {PrismaClient} = require("@prisma/client");
 
 const qnEntry = require('./routes/qnEntry');
+const testResults =require('./routes/testResults');
 const app=express();
 const prisma= new PrismaClient();
 
@@ -153,6 +154,19 @@ app.post("/api/login",async(req,res)=>{
     }
 })
 
+//get user data
+app.get("/api/userData/:userId",async(req,res)=>{
+    const {userId}= req.params;
+
+    const data= await prisma.users.findUnique({
+        where:{
+            userId:userId
+        }
+    });
+
+    res.status(200).json({message:"User Data retrieved successfully",data:data})
+})
+
 // fetch testPage data
 app.get("/api/test/:slug", async (req, res)=>{
     try {
@@ -172,6 +186,9 @@ app.get("/api/test/:slug", async (req, res)=>{
 
 //question fetch
 app.use('/api/questions', qnEntry);
+
+//results generation
+app.use('/api/results', testResults);
 
 // 1. Serve static files from the React app
 app.use(express.static(path.join(__dirname, '../client/build')));

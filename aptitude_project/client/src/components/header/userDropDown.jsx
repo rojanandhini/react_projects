@@ -5,7 +5,7 @@ const UserDropDown = () => {
   return (
     <div className="w-[75%] mx-auto">
       <div className="w-[150px] flex flex-col border backdrop-blur-md rounded-xl text-[#1506e7] py-5 px-3 gap-2">
-        <Link to="" className="flex">
+        <Link to="/userLogin/api/profile" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -24,7 +24,7 @@ const UserDropDown = () => {
           </svg>
           Profile
         </Link>
-        <Link to="" className="flex">
+        {/* <Link to="" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -42,8 +42,8 @@ const UserDropDown = () => {
             <path d="m9 14 2 2 4-4" />
           </svg>
           My tests
-        </Link>
-        <Link to="" className="flex">
+        </Link> */}
+        <Link to="/userLogin/api/results/stats" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -61,7 +61,7 @@ const UserDropDown = () => {
           </svg>
           My Stats
         </Link>
-        <Link to="" className="flex">
+        <Link to="/" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}

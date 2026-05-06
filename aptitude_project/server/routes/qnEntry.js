@@ -41,14 +41,41 @@ router.get('/details/:slug', async (req, res) => {
   }
 });
 // 2. ADD THIS: To create the shuffled sequence when the Start button is clicked
+// Express Route
 router.get('/setup/:testPaperId', async (req, res) => {
-  const allQuestions = await prisma.question.findMany({
-    where: { testPaperId: req.params.testPaperId },
-    select: { id: true },
-  });
-  const shuffled = allQuestions.sort(() => Math.random() - 0.5).slice(0, 40);
-  res.json(shuffled.map(q => q.id));
+  const { testPaperId } = req.params;
+
+  try {
+    // 1. Fetch all question IDs for this paper
+    const allQuestions = await prisma.question.findMany({
+      where: { testPaperId: testPaperId },
+      select: { id: true },
+    });
+
+    // 2. Shuffle and slice to 40
+    const shuffledIds = allQuestions
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 40)
+      .map(q => q.id);
+
+    // 3. CREATE the TestSet record in your DB
+    const newTestSet = await prisma.testSet.create({
+      data: {
+        testPaperId: testPaperId,
+        questions: shuffledIds, // Saves the exact order
+      }
+    });
+
+    // 4. Return the database ID and the sequence to the frontend
+    res.json({
+      testSetId: newTestSet.id, // THE GENERATED DB ID
+      shuffledIds: shuffledIds
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 });
+
 
 // 3. ADD THIS: To fetch the actual question text/options one by one
 router.get('/get-one/:questionId', async (req, res) => {

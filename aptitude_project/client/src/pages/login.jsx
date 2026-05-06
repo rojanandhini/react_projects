@@ -8,33 +8,30 @@ export default function Login() {
 
   const navigate= useNavigate();
 
-  const onSubmit = async (data) => {
-
+const onSubmit = async (data) => {
   try {
     const response = await fetch("/api/login", {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json', // Tells the BE to expect JSON
-      },
-      body: JSON.stringify(data), // Converts the form object to a string
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
     });
 
     const result = await response.json();
 
     if (response.ok) {
-      console.log('Success:', result);
+      // 1. Save the userId and tokens to localStorage
+      // result.data contains the 'userId' from your ...restData
+      localStorage.setItem("userId", result.data.userId);
+      localStorage.setItem("userName", result.data.firstName);
+      localStorage.setItem("token", result.data.token.mainToken);
+
       alert('Login Successful ...');
       navigate("/userLogin");
-  
     } else {
-      // Handles backend validation errors (e.g., email already exists)
-      console.error('Server Error:', result);
-      alert(`Error: ${result.message || 'Registration failed'}`);
+      alert(`Error: ${result.message || 'Login failed'}`);
     }
   } catch (error) {
-    // Handles network errors (e.g., backend is down)
     console.error('Network Error:', error);
-    alert('Could not connect to the server.');
   }
 };
 

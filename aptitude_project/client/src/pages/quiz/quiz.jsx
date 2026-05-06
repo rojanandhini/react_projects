@@ -12,6 +12,7 @@ const Quiz = () => {
   const navigate = useNavigate();
   const paperId = location.state?.paperId;
   
+  const [testSetId,setTestSetId]= useState([]);
   const [status, setStatus] = useState(new Array(40).fill('unvisited'));
   const [userAnswers, setUserAnswers] = useState({});
   const [shuffledIds, setShuffledIds] = useState([]);
@@ -21,6 +22,8 @@ const Quiz = () => {
   
   
   const { secondsLeft, timeDisplay } = useTimer(45);
+
+  const userName = localStorage.getItem("userName") || "Guest";
 
  const prepareLatex = (str) => {
   if (!str) return "";
@@ -71,11 +74,37 @@ const updateStatus = (idx) => {
     }
   };
    // 3. Create a dedicated submit function (reusable)
-  const handleSubmit = () => {
-    // You can send userAnswers to the backend here
-    console.log("Submitting answers:", userAnswers);
-    navigate('/results', { state: { answers: userAnswers } });
+const handleSubmit = async () => {
+  const userId = localStorage.getItem("userId"); // Retrieve the saved ID
+
+  if (!userId) {
+    alert("User session expired. Please login to view Results");
+    navigate("/api/login");
+    return;
+  }
+
+  const payload = {
+    userId: userId, 
+    testSetId: testSetId, 
+    userAnswers: userAnswers 
   };
+
+  const res = await fetch('/api/results/submit-test', {
+    method: 'POST',
+    headers: { 
+        'Content-Type': 'application/json',
+        // Optional: Send the token if your BE requires it for auth
+        'Authorization': `Bearer ${localStorage.getItem("token")}`
+    },
+    body: JSON.stringify(payload)
+  });
+
+  const resultData = await res.json();
+  if (res.ok) {
+    navigate('/api/results', { state: { report: resultData } });
+  }
+};
+
 
   useEffect(() => {
     if (secondsLeft === 0) {
@@ -89,10 +118,11 @@ useEffect(() => {
     if (paperId) {
       fetch(`/api/questions/setup/${paperId}`)
         .then(res => res.json())
-        .then(ids => {
-          setShuffledIds(ids);
-          if (ids.length > 0) {
-            fetchQuestionById(ids[0]); // Initial load
+        .then(data => {
+          setTestSetId(data.testSetId); 
+          setShuffledIds(data.shuffledIds);
+          if (data.shuffledIds.length  > 0) {
+            fetchQuestionById(data.shuffledIds[0]); // Initial load
             updateStatus(0);
           }
         });
@@ -132,7 +162,12 @@ useEffect(() => {
     <div className='w-[95%] mx-auto my-5 grid grid-cols-12 gap-4'>
       <div className='col-span-9 border-r pr-5'>
         <div className="flex justify-between items-center mb-5">
-          <h2 className='text-2xl font-bold text-blue-600'>Question {index + 1} of 40</h2>
+          <div className="flex flex-col">
+            {/* Displaying the name here */}
+            <p className="text-gray-500 text-sm">Welcome, <span className="font-semibold">{userName}</span></p>
+            <h2 className='text-2xl font-bold text-blue-600'>Question {index + 1} of 40</h2>
+            
+          </div>
           <div className={`text-xl font-mono font-bold ${secondsLeft < 300 ? 'text-red-600' : 'text-gray-700'}`}>
             Time Remaining: {timeDisplay}
           </div>

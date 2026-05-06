@@ -16,6 +16,8 @@ import Quiz from "../pages/quiz/quiz";
 import Results from "../pages/quiz/results";
 import UserLayout from "../Layout/userLayout";
 import NewsNarticles from "../components/newsNarticles";
+import Stats from "../pages/userPages/stats";
+import Profile from "../pages/userPages/profile";
 
 export const Route = createBrowserRouter([
   {
@@ -79,6 +81,12 @@ export const Route = createBrowserRouter([
   },{
     path: "/userLogin/api/test/:slug",
     element: <TestPage/>
+  },{
+    path: "/userLogin/api/results/stats",
+    element: <Stats/>
+  },{
+    path:"/userLogin/api/profile",
+    element:<Profile/>
   }]
   },
   {
@@ -92,8 +100,9 @@ export const Route = createBrowserRouter([
   {
     path:"/quiz/:slug",
     element:<Quiz/>
-  },{
-    path:"/results",
+  },
+  {
+    path:"/api/results",
     element:<Results/>
   }
 ]);

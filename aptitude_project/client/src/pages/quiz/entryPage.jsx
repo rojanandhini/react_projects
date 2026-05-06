@@ -6,7 +6,7 @@ const EntryPage = () => {
     const [testInfo, setTestInfo] = useState(null);
     const [error, setError] = useState(false); // Added error state
     const navigate = useNavigate();
-
+    const userName = localStorage.getItem("userName") || "Guest";
     useEffect(() => {
         fetch(`/api/questions/details/${slug}`) // Ensure full URL if needed
             .then(res => {
@@ -33,7 +33,7 @@ const EntryPage = () => {
 
     return (
         <div className='w-[75%] mx-auto my-5 flex flex-col items-center'>
-            <h2 className='text-3xl text-blue-500 my-2 '>Hello!</h2>
+            <h2 className='text-3xl text-blue-500 my-2 '>Hello<span className="font-semibold ml-3 mr-2 text-red-500">{userName}</span>!</h2>
             <div className="border rounded-lg px-5 py-5 bg-gray-50">
                 <h4 className="font-bold mb-3">Please read the instructions carefully:</h4>
                 {/* Changed <p> to <div> to allow <ul> nesting */}
