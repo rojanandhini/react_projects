@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 
 const PrepTipsPage = () => {
   const tips = [
@@ -26,31 +27,36 @@ const PrepTipsPage = () => {
  const [activeCategory, setActiveCategory] = useState('Numerical');
 
   const testTypes = {
-    Numerical: [
-      "Master the 'percentage change' formula—it appears in almost every data interpretation question.",
+    Numerical: 
+      {slug:"numerical-ability",
+        content:["Master the 'percentage change' formula—it appears in almost every data interpretation question.",
       "Get comfortable with graphs and tables; always read the axis labels and units before looking at the numbers.",
       "Practice mental math for simple additions and divisions to save your calculator time for complex steps.",
-      "Check if the test has negative marking. If not, never leave a numerical question blank."
-    ],
-    Verbal: [
-      "Base your answers *only* on the text provided. Do not use your outside knowledge of the topic.",
+      "Check if the test has negative marking. If not, never leave a numerical question blank."]
+      }
+      
+    ,
+    Verbal:      { slug:"verbal-reasoning",
+        content:["Base your answers *only* on the text provided. Do not use your outside knowledge of the topic.",
       "Pay attention to 'absolute' words like 'always,' 'never,' or 'all' vs. 'sometimes' or 'some.'",
       "Read the question first, then skim the passage for the specific keywords mentioned.",
-      "For 'True/False/Cannot Tell' questions, 'Cannot Tell' is often the answer if a statement is plausible but not explicitly proven by the text."
-    ],
-    Logical: [
-      "Separate complex diagrams into individual elements (e.g., just watch the 'arrow' first, then just the 'shading').",
+      "For 'True/False/Cannot Tell' questions, 'Cannot Tell' is often the answer if a statement is plausible but not explicitly proven by the text."]}
+    ,
+    English: 
+      {slug:"english-proficiency",
+        content:["Separate complex diagrams into individual elements (e.g., just watch the 'arrow' first, then just the 'shading').",
       "Look for patterns in rotation (90°, 45°), movement (clockwise/anti-clockwise), and frequency of shapes.",
       "Try to identify the 'rule' for the sequence and test it against the middle shapes before choosing an answer.",
-      "Use the process of elimination. Crossing out obviously wrong patterns is faster than finding the right one from scratch."
-    ],
-    Abstract: [
-      "Look for symmetry and 'mirroring' patterns across the horizontal or vertical axes.",
+      "Use the process of elimination. Crossing out obviously wrong patterns is faster than finding the right one from scratch."]}
+    ,
+    Technical: 
+      {slug:"technical-questions",
+        content:["Look for symmetry and 'mirroring' patterns across the horizontal or vertical axes.",
       "Count the number of sides, lines, or dots. Often the pattern is a simple mathematical progression (e.g., +1 side each time).",
       "Notice changes in color or shading that alternate between odd and even positions in the sequence.",
-      "Mental rotation is key—try to 'flip' the image in your mind to see if it matches the next step."
-    ]
-  };
+      "Mental rotation is key—try to 'flip' the image in your mind to see if it matches the next step."]}
+    
+  };const [slug,setSlug]=useState(testTypes['Numerical'].slug);
   return (
     <div>
     <div className='w-[800px] mx-auto px-10 py-5' >
@@ -85,7 +91,9 @@ const PrepTipsPage = () => {
         {Object.keys(testTypes).map((type) => (
           <button
             key={type}
-            onClick={() => setActiveCategory(type)}
+            onClick={() => {setActiveCategory(type);
+              setSlug(testTypes[type].slug);
+            }}
             className={`
     px-5 py-[10px] rounded-[25px] border-none font-semibold cursor-pointer transition-all duration-300
     ${activeCategory === type 
@@ -101,10 +109,10 @@ const PrepTipsPage = () => {
       {/* Tip Content Area */}
       <div className='bg-white border border-[#e1e8ed] rounded-[12px] p-[30px] shadow-[0_4px_6px_rgba(0,0,0,0.05)]'>
         <h2  className='text-[#3498db] border-b-2 border-b-[#f1f1f1] pb-[10px] mb-5'>
-          {activeCategory} Reasoning Tips
+          {activeCategory} Tips
         </h2>
         <ul >
-          {testTypes[activeCategory].map((tip, i) => (
+          {testTypes[activeCategory].content.map((tip, i) => (
             <li key={i} className='mb-4 flex items-start'>
               <span className='text-[#27ae60] mr-3 font-bold' >✓</span>
               <span className='text-[#34495e] leading-6' >{tip}</span>
@@ -117,7 +125,7 @@ const PrepTipsPage = () => {
       <div className='text-center mt-10'>
         <p className='italic text-[#95a5a6]' >"The best preparation is consistent practice under timed conditions."</p>
         <button className='mt-5 px-[30px] py-[15px] bg-[#2ecc71] text-white border-none rounded-[5px] text-[1.1rem] cursor-pointer'>
-          Try a Free {activeCategory} Mock Test
+          <Link to={`/quiz/entry/${slug}`}>Try a Free {activeCategory} Mock Test</Link>
         </button>
       </div>
     </div>

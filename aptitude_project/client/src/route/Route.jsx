@@ -1,8 +1,8 @@
-import {createBrowserRouter} from "react-router-dom"
+import { createBrowserRouter } from "react-router-dom";
 import HomeLayout from "../Layout/homeLayout";
 import NewsDetails from "../pages/newsDetails";
 import ArticleDetails from "../pages/articleDetails";
-import ParentLayout from "../Layout/parentLayout";
+
 import Login from "../pages/login";
 import Register from "../pages/register";
 import ResetPassword from "../pages/resetPassword";
@@ -14,95 +14,84 @@ import TestPage from "../pages/testPage";
 import EntryPage from "../pages/quiz/entryPage";
 import Quiz from "../pages/quiz/quiz";
 import Results from "../pages/quiz/results";
-import UserLayout from "../Layout/userLayout";
+
 import NewsNarticles from "../components/newsNarticles";
 import Stats from "../pages/userPages/stats";
 import Profile from "../pages/userPages/profile";
+import AppLayout from "../Layout/appLayout";
+import UserLayout from "../Layout/userLayout";
+import HomeSelector from "../components/homeSelector";
 
 export const Route = createBrowserRouter([
   {
     path: "/",
-    element:<ParentLayout/>,
-    children:[{
-    path: "/",
-    element:<HomeLayout/>
-  },{
-    path: "/api/recentNews/:postNo",
-    element:<NewsDetails/>
-  }, 
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+         element: <HomeSelector />,
+      },
+      {
+        path: "/api/recentNews/:postNo",
+        element: <NewsDetails />,
+      },
+      {
+        path: "/recentArticles",
+        element: <ArticleDetails />,
+      },
+      {
+        path: "/api/login",
+        element: <Login />,
+      },
+      {
+        path: "/api/test/:slug",
+        element: <TestPage />,
+      },
+      {
+        path: "/api/signup",
+        element: <Register />,
+      },
+      {
+        path: "/resetPassword",
+        element: <ResetPassword />,
+      },
+      {
+        path: "/prepTips",
+        element: <PrepTipsPage />,
+      },
+      {
+        path: "/newsNArticles",
+        element: <NewsNArticlesPage />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/api/results/stats",
+        element: <Stats />,
+      },
+      {
+        path: "/api/profile",
+        element: <Profile />,
+      },
+    ],
+  },
+
   {
-    path: "/recentArticles",
-    element:<ArticleDetails/>
-  },
-{
-    path: "/api/login",
-    element:<Login/>
-  },
-  {
-    path: "/api/test/:slug",
-    element: <TestPage/>
-  },
-{
-    path: "/api/signup",
-    element:<Register/>
-  },
-{
-    path: "/resetPassword",
-    element:<ResetPassword/>
-  },
-{
-    path: "/prepTips",
-    element:<PrepTipsPage/>
-  },
-  {
-    path: "/newsNArticles",
-    element:<NewsNArticlesPage/>
-  },
-{
-    path: "/contact",
-    element:<Contact/>
-  },]
-  },
-  {
-    path:"/userLogin",
-    element:<UserLayout/>,
-    children:[{
-    path: "/userLogin",
-    element:<NewsNarticles/>
-  },{
-    path: "/userLogin/contact",
-    element:<Contact/>
-  },{
-    path: "/userLogin/prepTips",
-    element:<PrepTipsPage/>
-  }, {
-    path: "/userLogin/newsNArticles",
-    element:<NewsNArticlesPage/>
-  },{
-    path: "/userLogin/api/test/:slug",
-    element: <TestPage/>
-  },{
-    path: "/userLogin/api/results/stats",
-    element: <Stats/>
-  },{
-    path:"/userLogin/api/profile",
-    element:<Profile/>
-  }]
+    path: "/employer",
+    element: <EmployerLayout />,
   },
   {
-    path:"/employer",
-    element:<EmployerLayout/>
+    path: "/quiz/entry/:slug",
+    element: <EntryPage />,
   },
   {
-    path:"/quiz/entry/:slug",
-    element:<EntryPage/>
+    path: "/quiz/:slug",
+    element: <Quiz />,
   },
   {
-    path:"/quiz/:slug",
-    element:<Quiz/>
+    path: "/api/results",
+    element: <Results />,
   },
-  {
-    path:"/api/results",
-    element:<Results/>
-  }
 ]);

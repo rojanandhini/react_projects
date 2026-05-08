@@ -1,12 +1,12 @@
 import { useForm } from "react-hook-form"
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import ResetPassword from "./resetPassword"
 
 
 export default function Login() {
   const { register, handleSubmit } = useForm()
 
-  const navigate= useNavigate();
+
 
 const onSubmit = async (data) => {
   try {
@@ -26,7 +26,8 @@ const onSubmit = async (data) => {
       localStorage.setItem("token", result.data.token.mainToken);
 
       alert('Login Successful ...');
-      navigate("/userLogin");
+      localStorage.setItem("isLoggedIn", "true");
+      window.location.assign ("/");
     } else {
       alert(`Error: ${result.message || 'Login failed'}`);
     }

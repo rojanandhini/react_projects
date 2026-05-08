@@ -1,11 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 const UserDropDown = () => {
+   const navigate = useNavigate();
+  const handleSignOut = () => {
+  localStorage.removeItem("isLoggedIn");
+  navigate("/api/login");
+
+};
+
   return (
     <div className="w-[75%] mx-auto">
       <div className="w-[150px] flex flex-col border backdrop-blur-md rounded-xl text-[#1506e7] py-5 px-3 gap-2">
-        <Link to="/userLogin/api/profile" className="flex">
+        <Link to="/api/profile" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -43,7 +50,7 @@ const UserDropDown = () => {
           </svg>
           My tests
         </Link> */}
-        <Link to="/userLogin/api/results/stats" className="flex">
+        <Link to="/api/results/stats" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -61,7 +68,7 @@ const UserDropDown = () => {
           </svg>
           My Stats
         </Link>
-        <Link to="/" className="flex">
+        <button onClick={handleSignOut} className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -79,7 +86,7 @@ const UserDropDown = () => {
             <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
           </svg>
           Sign Out
-        </Link>
+        </button>
       </div>
     </div>
   );

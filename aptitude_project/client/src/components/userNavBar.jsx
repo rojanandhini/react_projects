@@ -31,10 +31,10 @@ const UserNavBar = () => {
                   <UserAptitude/>
                 </div>
               </button>
-            <Link to="/userLogin/prepTips">Preparation Tips</Link>
+            <Link to="/prepTips">Preparation Tips</Link>
             
-            <Link to="/userLogin/newsNArticles">Articles &amp; News</Link>
-            <Link to="/userLogin/contact">Contact Us</Link>
+            <Link to="/newsNArticles">Articles &amp; News</Link>
+            <Link to="/contact">Contact Us</Link>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ import UserBurger from "./header/userBurger";
 const UserHeader = () => {
   return (
     <div className="w-[75%] mx-auto my-2 p-3 flex justify-between">
-      <Link to="/userLogin">
+      <Link to="/">
         <NameAndLogo />
       </Link>
       <UserBurger/>
