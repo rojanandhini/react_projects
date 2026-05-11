@@ -22,6 +22,7 @@ const onSubmit = async (data) => {
       // 1. Save the userId and tokens to localStorage
       // result.data contains the 'userId' from your ...restData
       localStorage.setItem("userId", result.data.userId);
+      localStorage.setItem("email",result.data.email);
       localStorage.setItem("userName", result.data.firstName);
       localStorage.setItem("token", result.data.token.mainToken);
 

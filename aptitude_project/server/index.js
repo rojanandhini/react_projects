@@ -3,6 +3,7 @@ const cors= require("cors");
 const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 const path = require('path');
+const nodemailer = require('nodemailer');
 const {PrismaClient} = require("@prisma/client");
 
 const qnEntry = require('./routes/qnEntry');
@@ -12,6 +13,7 @@ const prisma= new PrismaClient();
 
 app.use(cors());
 app.use(express.json());
+
 
 // fetch  all news
 app.get("/api/news",async(req,res)=>{
@@ -182,6 +184,47 @@ app.get("/api/test/:slug", async (req, res)=>{
     res.status(500).json({message:"Test couldn't be found", error: error})     ;
     }
     
+});
+
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  host: '://gmail.com',
+  port: 587,
+  secure: false, // Use false for port 587
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
+  tls: {
+    rejectUnauthorized: false // This helps bypass local certificate issues
+  }
+});
+
+
+// save message from contact form 
+app.post('/api/contact', async (req, res) => {
+  const { name, email, subject, message } = req.body;
+
+  try {
+    // 1. Save to Neon DB via Prisma
+    const savedMessage = await prisma.message.create({
+      data: { name, email, subject, message },
+    });
+
+    // 2. Send the Email
+    await transporter.sendMail({
+      from: `"${name} via MyWebsite" <${process.env.EMAIL_USER}>`, 
+  to: process.env.EMAIL_USER, 
+  replyTo: email,
+      subject: `New DB Entry: ${subject}`,
+      text: `\nMessage: ${message}`,
+    });
+
+    res.status(200).json({ success: true, db_id: savedMessage.id });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Failed to process request." });
+  }
 });
 
 //question fetch

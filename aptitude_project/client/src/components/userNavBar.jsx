@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import UserAptitude from './userAptitude';
+
+import AptitudeDropdown from './aptitudeDropdown';
 
 const UserNavBar = () => {
  
@@ -28,7 +29,7 @@ const UserNavBar = () => {
                   </svg>
                 </div>
                 <div className="pt-5 absolute hidden group-hover:block">
-                  <UserAptitude/>
+                  <AptitudeDropdown/>
                 </div>
               </button>
             <Link to="/prepTips">Preparation Tips</Link>

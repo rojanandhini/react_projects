@@ -44,17 +44,17 @@ const PrepTipsPage = () => {
     ,
     English: 
       {slug:"english-proficiency",
-        content:["Separate complex diagrams into individual elements (e.g., just watch the 'arrow' first, then just the 'shading').",
-      "Look for patterns in rotation (90°, 45°), movement (clockwise/anti-clockwise), and frequency of shapes.",
-      "Try to identify the 'rule' for the sequence and test it against the middle shapes before choosing an answer.",
-      "Use the process of elimination. Crossing out obviously wrong patterns is faster than finding the right one from scratch."]}
+        content:[ "Pay attention to transition words like however, nonetheless, or although. They usually signal a 180-degree flip in the sentence's logic",
+          "If you don't know a word, break it down. (e.g., Bene- means good, Mal- means bad, Chron- means time). This helps you guess the 'vibe' of the word even if you've never seen it.",
+          " In 'fill in the blanks', ignore the options first. Read the sentence and decide if the missing word should be positive or negative. Then, eliminate the options that don't match that charge.",
+          " In complex sentences, mentally strip away the adjectives. If the sentence says 'The box of heavy, rusted, metal tools is/are,' remember the subject is just 'box,' so the answer is 'is.'"]}
     ,
     Technical: 
       {slug:"technical-questions",
-        content:["Look for symmetry and 'mirroring' patterns across the horizontal or vertical axes.",
-      "Count the number of sides, lines, or dots. Often the pattern is a simple mathematical progression (e.g., +1 side each time).",
-      "Notice changes in color or shading that alternate between odd and even positions in the sequence.",
-      "Mental rotation is key—try to 'flip' the image in your mind to see if it matches the next step."]}
+        content:[" In 'find the output' snippets, don't read the code like a story. Write down the variable name and update its value every time it changes in a loop.",
+      " For logic gates or Boolean expressions, if the answer isn't obvious, plug in 0 and 1. Usually, testing these two extremes will eliminate half the wrong choices.",
+      "Use Short-Circuit Logic. In an AND (&&) statement, if the first part is false, the whole thing is false. Don’t waste time calculating the second half.",
+      "In systems or networking questions, the answer is almost always the slowest component. Identify where the data 'piles up' to find the limit of the system."]}
     
   };const [slug,setSlug]=useState(testTypes['Numerical'].slug);
   return (
