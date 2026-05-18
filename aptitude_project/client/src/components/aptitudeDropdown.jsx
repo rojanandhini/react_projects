@@ -8,7 +8,7 @@ const AptitudeDropdown = () => {
             <Link to="/api/test/verbal-reasoning">Verbal Reasoning</Link>
             {/* <Link to="/api/test/programming">Programming</Link> */}
             <Link to="/api/test/english-proficiency">English Proficiency Test</Link>
-            <Link to="/api/test/technical-questions">Technical Quiz</Link>
+            <Link to="/api/test/technical-questions">Computer Knowledge Test</Link>
         </div>      
     </div>
   )

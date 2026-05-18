@@ -49,7 +49,7 @@ const PrepTipsPage = () => {
           " In 'fill in the blanks', ignore the options first. Read the sentence and decide if the missing word should be positive or negative. Then, eliminate the options that don't match that charge.",
           " In complex sentences, mentally strip away the adjectives. If the sentence says 'The box of heavy, rusted, metal tools is/are,' remember the subject is just 'box,' so the answer is 'is.'"]}
     ,
-    Technical: 
+    Computer: 
       {slug:"technical-questions",
         content:[" In 'find the output' snippets, don't read the code like a story. Write down the variable name and update its value every time it changes in a loop.",
       " For logic gates or Boolean expressions, if the answer isn't obvious, plug in 0 and 1. Usually, testing these two extremes will eliminate half the wrong choices.",

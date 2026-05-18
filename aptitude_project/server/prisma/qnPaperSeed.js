@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   // Load and parse the JSON file
-  const rawData = fs.readFileSync('./data.json');
+  const rawData = fs.readFileSync('./data1.json');
   const topicsData = JSON.parse(rawData);
 
   // Iterate through each topic slug in your JSON (e.g., 'numerical-ability')

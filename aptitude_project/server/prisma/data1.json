@@ -250,755 +250,755 @@
         { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the correct options from the questions given below. I am working hard on this book, ............... ?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "don't I", "isCorrect": false },
+         { "text": "won't I", "isCorrect": false },
+        { "text": "aren't I", "isCorrect": true },
+        { "text": "can't I", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the correct options from the questions given below. Everybody was watching the TV, ....... ?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "haven't they?", "isCorrect": false },
+         { "text": "aren't they?", "isCorrect": false },
+        { "text": "hadn't they?", "isCorrect": false },
+        { "text": "don't they?", "isCorrect": false },
+        { "text": "weren't they?", "isCorrect": true }
       ]
     },{
-      "question": "",
+      "question": "Match the tag with the statement 3. We love it, don’t we?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "No, we didn’t. It was the year before.", "isCorrect": false },
+         { "text": "Yes, we do. It’s great.", "isCorrect": true },
+        { "text": "No, it doesn’t. It never did.", "isCorrect": false },
+        { "text": "Yes, they do. They’ve been there for years.", "isCorrect": false },
+        { "text": "Yes, I did. Very much.", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Use the most suitable one in the following sentence. Today everyone wishes ……… money quickly.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "earn", "isCorrect": false },
+         { "text": "to earn", "isCorrect": true },
+        { "text": "for earning", "isCorrect": false },
+        { "text": "earning", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Spot the errors, if any, in the following sentence. His aim is no more than to use unfair means to attain success in life.",
+      "explanation": "Drop ‘to’ before ‘use’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "is no more", "isCorrect": false },
+         { "text": "to use", "isCorrect": true },
+        { "text": "to attain", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false },
+        { "text": "unfair means", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Spot the errors, if any, in the following sentences. She was confident to qualify the examination.",
+      "explanation": "of qualifying’ in place of ‘qualify’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "she was", "isCorrect": false },
+         { "text": "confident", "isCorrect": false },
+        { "text": "to qualify", "isCorrect": true },
+        { "text": "the examination", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Use the most suitable one in the following sentence. Throughout the day she did nothing but ……… illness.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "feigning", "isCorrect": false },
+         { "text": "feign", "isCorrect": true },
+        { "text": "to feign", "isCorrect": false },
+        { "text": "feigning for", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Use the most suitable one in the following sentence. His mother always forbids him ……… with Nisha.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "from speaking", "isCorrect": false },
+         { "text": "to speak", "isCorrect": true },
+        { "text": "not to speak", "isCorrect": false },
+        { "text": "speaking", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Use the most suitable one in the following sentence. He is rich today but he seems ……… in the past.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "to be poor", "isCorrect": false },
+         { "text": "to have been poor", "isCorrect": true },
+        { "text": "to being poor", "isCorrect": false },
+        { "text": "poor", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the most suitable alternative to make the sentence logical in sense. Being a philanthropist he ……… this institution.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "founded", "isCorrect": true },
+         { "text": "was founded", "isCorrect": false },
+        { "text": "found", "isCorrect": false },
+        { "text": "find", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the most suitable alternative to make the sentence logical in sense. The wood cutter ……… the log of the wood to make a cot.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "saw", "isCorrect": false },
+         { "text": "sew", "isCorrect": false },
+        { "text": "sawed", "isCorrect": true },
+        { "text": "sawn", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the most suitable alternative to make the sentence logical in sense. Hard work is bound to ………your health.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "effect", "isCorrect": false },
+         { "text": "affect", "isCorrect": true },
+        { "text": "effected", "isCorrect": false },
+        { "text": "affected", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the most suitable alternative to make the sentence logical in sense. Bhagat Singh ……… his life for his motherland.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "lie down", "isCorrect": false },
+         { "text": "lay down", "isCorrect": false },
+        { "text": "laid down", "isCorrect": true },
+        { "text": "have laid down", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the most suitable alternative to make the sentence logical in sense. ………, our freedom is in danger.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Arise", "isCorrect": true },
+         { "text": "Rise", "isCorrect": false },
+        { "text": "Raise", "isCorrect": false },
+        { "text": "Rice", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Choose the most suitable alternative to make the sentence logical in sense. One is ……… in duty to help the ageing parents.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "bound", "isCorrect": true },
+         { "text": "bounded", "isCorrect": false },
+        { "text": "binding", "isCorrect": false },
+        { "text": "to bind", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Fill in the proper form of verbs given in the brackets. While he………(examine) the papers, he found that one paper………(disappear) from the room.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "examine, is disappearing", "isCorrect": false },
+         { "text": "examined, was disappearing", "isCorrect": false },
+        { "text": "is examining, has disappeared", "isCorrect": false },
+        { "text": "was examining, had disappeared", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Fill in the proper form of verbs given in the brackets. If I ……… (be) God, I ……… (eliminate) all sufferings.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "am, will eliminate", "isCorrect": false },
+         { "text": "was, would eliminate", "isCorrect": false },
+        { "text": "have been, would have eliminated", "isCorrect": false },
+        { "text": "am, would eliminate", "isCorrect": false },
+        { "text": "were, would eliminate", "isCorrect": true }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer.",
+      "explanation": "Say ‘were not’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "The recommendations of the committee", "isCorrect": false },
+         { "text": "that the age should be lowered down", "isCorrect": false },
+        { "text": "immediately", "isCorrect": false },
+        { "text": "was not accepted", "isCorrect": true },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer.",
+      "explanation": "Add ‘understand’ after ‘did not’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "He did not", "isCorrect": true },
+         { "text": "and could not have ", "isCorrect": false },
+        { "text": "understood", "isCorrect": false },
+        { "text": "the full facts of the case", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer. The ship was loaded with cotton",
+      "explanation": "(b) ‘laden with’ for ‘loaded with’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "The ship", "isCorrect": false },
+         { "text": "loaded", "isCorrect": true },
+        { "text": "with", "isCorrect": false },
+        { "text": "cotton", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer. ",
+      "explanation": "Say ‘inspite of’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Instead of", "isCorrect": true },
+         { "text": "his busy and hard life,", "isCorrect": false },
+        { "text": "he still retains", "isCorrect": false },
+        { "text": "freshness and robustness", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer. ",
+      "explanation": "Use ‘chooses’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "If anyone of the guests choose", "isCorrect": true },
+         { "text": "to leave before", "isCorrect": false },
+        { "text": "the ceremony is over", "isCorrect": false },
+        { "text": "lead hiim to exit quickly", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer. ",
+      "explanation": "Say ‘when’ for ‘than’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Hardly had", "isCorrect": false },
+         { "text": "I left the house", "isCorrect": false },
+        { "text": "than it began", "isCorrect": true },
+        { "text": "to rain", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
-      "explanation": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer. ",
+      "explanation": "Say ‘to tear’",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Would you please request", "isCorrect": false },
+         { "text": "him not to", "isCorrect": false },
+        { "text": "tore open the envelope", "isCorrect": true },
+        { "text": "without my consent?", "isCorrect": false },
+        { "text": "No Error", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Find out which part of a sentence has an error and mark that part. If there is no error mark that part as your answer. ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "The number of students", "isCorrect": false },
+         { "text": "appearing at ", "isCorrect": false },
+        { "text": "the written exxamination", "isCorrect": false },
+        { "text": "increases every year.", "isCorrect": false },
+        { "text": "No Error", "isCorrect": true }
       ]
     }],
   "technical-questions":[{
-      "question": "",
+      "question": "The vast network of computers that connects millions of people all over the world is called",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "LAN", "isCorrect": false },
+         { "text": "Web", "isCorrect": false },
+        { "text": "Hypertext", "isCorrect": false },
+        { "text": "Internet", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "The Internet is a system of",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Software Bundles", "isCorrect": false },
+         { "text": "Web pages", "isCorrect": false },
+        { "text": "website", "isCorrect": false },
+        { "text": "interconnected networks", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Unsolicited commercial E-mail is commonly known as",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "junk", "isCorrect": false },
+         { "text": "hoaxes", "isCorrect": false },
+        { "text": "hypertext", "isCorrect": false },
+        { "text": "virus", "isCorrect": false },
+        { "text": "spam", "isCorrect": true }
       ]
     },{
-      "question": "",
+      "question": "The standard protocol of the Internet is",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "TCP/IP", "isCorrect": false },
+         { "text": "java", "isCorrect": false },
+        { "text": "HTML", "isCorrect": true },
+        { "text": "flash", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which  of the following is the communication protocol that sets the standard used by every commputer that accesses web-based information?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "XML", "isCorrect": true },
+        { "text": "DML", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "HTML", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the folllowing is used by the browser to connect to the location of the Internet resources?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Linkers", "isCorrect": false },
+         { "text": "Protocol", "isCorrect": false },
+        { "text": "Cable", "isCorrect": false },
+        { "text": "URL", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "A ............. is the term used when a search engine returns a web page that matches the search criteria",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "blog", "isCorrect": false },
+         { "text": "hit", "isCorrect": true },
+        { "text": "link", "isCorrect": false },
+        { "text": "view", "isCorrect": false },
+        { "text": "success", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "A cookie",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "stores information about the user's web activity", "isCorrect": true },
+         { "text": "stores software developed by the user", "isCorrect": false },
+        { "text": "stores the password of the user", "isCorrect": false },
+        { "text": "stores the command used by the user", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "IPV4 address is",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "8 bit", "isCorrect": false },
+         { "text": "16 bit", "isCorrect": false },
+        { "text": "32 bit", "isCorrect": true },
+        { "text": "64 bit", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "To send data/message to and from computers the network software puts the message information in a",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "NIC", "isCorrect": false },
+         { "text": "packet", "isCorrect": true },
+        { "text": "trailer", "isCorrect": false },
+        { "text": "header", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Geometric arrangement of devices on the network  is called",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "topology", "isCorrect": true },
+         { "text": "protocols", "isCorrect": false },
+        { "text": "media", "isCorrect": false },
+        { "text": "LAN", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Multiplexing involves ......... path and ......... channel.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "one, one", "isCorrect": false },
+         { "text": "one, multiple", "isCorrect": true },
+        { "text": "multiple, one", "isCorrect": false },
+        { "text": "multiple, multiple", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "servers are those computers which provide resources to other computers connected by",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "network", "isCorrect": true },
+         { "text": "mainframe", "isCorrect": false },
+        { "text": "super computer", "isCorrect": false },
+        { "text": "client", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "A device that connects to a network without the use of cables is said to be",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "distributed", "isCorrect": false },
+         { "text": "cabled", "isCorrect": false },
+        { "text": "centralised", "isCorrect": false },
+        { "text": "open source", "isCorrect": false },
+        { "text": "wireless", "isCorrect": true }
       ]
     },{
-      "question": "",
+      "question": "P2P is a ......... application architecture.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "client/server", "isCorrect": true },
+         { "text": "distributed", "isCorrect": false },
+        { "text": "centralised", "isCorrect": false },
+        { "text": "1-tier", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "In OSI network architecture, the routing is performed by",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "network layer", "isCorrect": true },
+         { "text": "data link layer", "isCorrect": false },
+        { "text": "transport layer", "isCorrect": false },
+        { "text": "session layer", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the following is not a network device?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Router", "isCorrect": false },
+         { "text": "Switch", "isCorrect": false },
+        { "text": "Modem", "isCorrect": true },
+        { "text": "Bridge", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Bandwidth refers to",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "the cost of the cable required to implement a WAN", "isCorrect": false },
+         { "text": "the cost of the cable required to implement a LAN", "isCorrect": false },
+        { "text": "the amount of information a peer-to-peer network can store", "isCorrect": false },
+        { "text": "the amount of information a communication medium can transfer in a given amount of time", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "DBMS is comprised of tables that made up of rows called .......... and columns called ...........",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "fields, records", "isCorrect": false },
+         { "text": "records, fields", "isCorrect": true },
+        { "text": "address, fields", "isCorrect": false },
+        { "text": "ranges, sheet", "isCorrect": false },
+        { "text": "records, ranges", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the following contains information about a sinngle 'entity' in the database like a person, place, event or thing?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Query", "isCorrect": false },
+         { "text": "Form", "isCorrect": false },
+        { "text": "Record", "isCorrect": true },
+        { "text": "Table", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": ".......... means that the data contained in a database is accurate and reliable",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Data  redundancy", "isCorrect": false },
+        { "text": "Data integrity", "isCorrect": true },
+        { "text": "Data reliability", "isCorrect": false },
+        { "text": "Data consistency", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the  following types of table constraints will prevent the entry of duplicate rows?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Primary key", "isCorrect": true },
+        { "text": "Unique", "isCorrect": false },
+        { "text": "Null", "isCorrect": false },
+        { "text": "Foreign key", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "A logical schema ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "is the entire database", "isCorrect": false },
+         { "text": "is a standard way of organising information into accessible  part", "isCorrect": true },
+        { "text": "describes how data is actually stored on disk", "isCorrect": false },
+        { "text": "All of the above ", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "In the relational modes, cardinality is termed as",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "number of tuples", "isCorrect": true },
+         { "text": "number of attributes", "isCorrect": false },
+        { "text": "number of tables", "isCorrect": false },
+        { "text": "number of constraints", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Architecture of database can be viewed as ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "two levels", "isCorrect": false },
+         { "text": "four levels", "isCorrect": false },
+        { "text": "three levels", "isCorrect": true },
+        { "text": "one level", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "DBMS helps to achieve",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "data independence", "isCorrect": false },
+         { "text": "centralised control of data", "isCorrect": false },
+        { "text": "selection of data", "isCorrect": false },
+        { "text": "Both (a) and (b)", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "In a relational database, a data structure that organises the information about a single topic into a rows and columns, is",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "block", "isCorrect": false },
+         { "text": "record", "isCorrect": false },
+        { "text": "tuple", "isCorrect": false },
+        { "text": "table", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "To increase the  line spacing, use the ........... shortcut keys.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Ctrl + L", "isCorrect": false },
+         { "text": "Ctrl + E", "isCorrect": false },
+        { "text": "Ctrl + I", "isCorrect": false },
+        { "text": "Ctrl + M", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": true }
       ]
     },{
-      "question": "",
+      "question": "The cell having bold boundary is called ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "relative", "isCorrect": false },
+         { "text": "active", "isCorrect": true },
+        { "text": "absolute", "isCorrect": false },
+        { "text": "mixed", "isCorrect": false },
+        { "text": "passive", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the  following allow you to select more than one slide in a presentation?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Alt + click each slide", "isCorrect": false },
+         { "text": "Shift + drag each slide", "isCorrect": false },
+        { "text": "Shift + click each slide", "isCorrect": true },
+        { "text": "Ctrl + click each slide", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "A .......... is an additional set of commands that the computer displays after you make a selection from the main menu",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "dialog box", "isCorrect": false },
+         { "text": "sub menu", "isCorrect": true },
+        { "text": "menu selection", "isCorrect": false },
+        { "text": "All of these", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "........... shows how the contents on printed page will appear with margin, header and footer.",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Draft", "isCorrect": false },
+         { "text": "Full screen reading", "isCorrect": false },
+        { "text": "Outline", "isCorrect": false },
+        { "text": "page layout", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "To restart the computer, following combination of keys is used",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "DEL + Ctrl", "isCorrect": false },
+         { "text": "Backspace + Ctrl", "isCorrect": false },
+        { "text": "Esc + Ctrl", "isCorrect": false },
+        { "text": "Insert + Esc", "isCorrect": false },
+        { "text": "Ctrl + Alt + Del", "isCorrect": true }
       ]
     },{
-      "question": "",
+      "question": "It runs on computer hardware and serves as patform for other software to run on. ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Operating system", "isCorrect": true },
+         { "text": "Application Software", "isCorrect": false },
+        { "text": "Programs", "isCorrect": false },
+        { "text": "Peripherals", "isCorrect": false },
+        { "text": "processing system", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "The simultaneous processing of two or more programs by multiple processors, is",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Multi-programming", "isCorrect": false },
+         { "text": "Multi-tasking", "isCorrect": false },
+        { "text": "Time sharing", "isCorrect": true },
+        { "text": "Multi-processing", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "It shares characteristics with both hardware and software",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Operating System", "isCorrect": true },
+         { "text": "Software", "isCorrect": false },
+        { "text": "Data", "isCorrect": false },
+        { "text": "Utility", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "BIOS stands for ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Bias Integrated Output System", "isCorrect": false },
+         { "text": "Bias Integrated Operator System", "isCorrect": false },
+        { "text": "Basic Input Output Software", "isCorrect": false },
+        { "text": "Basic Input Output System", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the following operating systems is also known as single user operating system?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Windows", "isCorrect": false },
+         { "text": "Linux", "isCorrect": false },
+        { "text": "Unix", "isCorrect": false },
+        { "text": "DOS", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which process checks to ensure the components of the computer are operating and connected properly?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Booting", "isCorrect": true },
+         { "text": "Processing", "isCorrect": false },
+        { "text": "Saving", "isCorrect": false },
+        { "text": "Editing", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "'>' symbol in DOS commands is used to",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "compare two values", "isCorrect": false },
+         { "text": "redirect input", "isCorrect": false },
+        { "text": "redirect output", "isCorrect": true },
+        { "text": "filter data", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the following is/are function of operating system?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "User interface", "isCorrect": false },
+         { "text": "File system manipulation", "isCorrect": false },
+        { "text": "Resource Allocation", "isCorrect": false },
+        { "text": "All of the above ", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "MS-DOS is usually supplied on a ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "hard disk", "isCorrect": true },
+         { "text": "cartridge tape", "isCorrect": false },
+        { "text": "CD ROM", "isCorrect": false },
+        { "text": "floppy disk", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Fork is",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "the displacing of a task", "isCorrect": false },
+         { "text": "the creation of a new job", "isCorrect": false },
+        { "text": "the creation of a new process", "isCorrect": true },
+        { "text": "increasing the priority of a task", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which one of the  following is not the function of operating system?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Resource Management", "isCorrect": false },
+         { "text": "File Management", "isCorrect": false },
+        { "text": "Networking", "isCorrect": true },
+        { "text": "Processor Management", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "The kernel is ...... user threads",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "a part of", "isCorrect": false },
+         { "text": "the creator of ", "isCorrect": false },
+        { "text": "unaware of", "isCorrect": true },
+        { "text": "aware of ", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the following is/are interpreted language?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "C", "isCorrect": false },
+         { "text": "C++", "isCorrect": false },
+        { "text": "Java", "isCorrect": false },
+        { "text": "Visual Basic", "isCorrect": false },
+        { "text": "Both (c) and (d)", "isCorrect": true }
       ]
     },{
-      "question": "",
+      "question": "A normal compiler takes source code as input and produces this as output",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "assembly code", "isCorrect": false },
+         { "text": "object code", "isCorrect": true },
+        { "text": "Machine code", "isCorrect": false },
+        { "text": "All of the above ", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "An assembler is a ",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Programming language dependent", "isCorrect": false },
+         { "text": "Syntax dependent", "isCorrect": false },
+        { "text": "Machinne dependent", "isCorrect": true },
+        { "text": "data dependent", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "A linker program",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "places the program in the memory for the purpose of execution", "isCorrect": false },
+         { "text": "relocates the program to execute from the specific memory area allocated to it", "isCorrect": false },
+        { "text": "links the program with other programs needed for its execution", "isCorrect": true },
+        { "text": "interfaces the program with the entities generating its input data ", "isCorrect": false },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     },{
-      "question": "",
+      "question": "Which of the following sysytem software resides in main memory always?",
       "explanation": "",
       "options": [
-        { "text": "", "isCorrect": true },
-         { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false },
-        { "text": "", "isCorrect": false }
+        { "text": "Text Editor", "isCorrect": false },
+         { "text": "Assembler", "isCorrect": false },
+        { "text": "Linker", "isCorrect": false },
+        { "text": "Loader", "isCorrect": true },
+        { "text": "None of the Above", "isCorrect": false }
       ]
     }]
 }
