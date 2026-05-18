@@ -6,7 +6,9 @@
   "scripts": {
     "server": "npm run dev --prefix server",
     "client": "npm run dev --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm install --prefix server && npx prisma generate --schema=server/prisma/schema.prisma",
+  "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
