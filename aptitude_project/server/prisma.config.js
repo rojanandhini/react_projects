@@ -1,4 +1,4 @@
-import "dotenv/config"; // Ensures your environment variables load first
+import "dotenv/config";
 import { defineConfig, env } from "prisma/config";
 
 export default defineConfig({
@@ -6,8 +6,10 @@ export default defineConfig({
   migrations: {
     path: "prisma/migrations",
   },
-  engine: "classic", // Required for native compatibility layers
+  engine: "classic",
+  // ⚡ Add the explicit binary target requirements here:
+  binaryTargets: ["debian-openssl-3.0.x", "windows"], 
   datasource: {
-    url: env("DATABASE_URL"), // Centralized environment evaluation
+    url: env("DATABASE_URL"),
   },
 });
