@@ -233,13 +233,12 @@ app.use('/api/questions', qnEntry);
 //results generation
 app.use('/api/results', testResults);
 
-// 1. Serve static files from the React app
-app.use(express.static(path.join(__dirname, '../client/build')));
+// 1. Serve static files from the Vite React app
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
-// 2. The "catch-all" handler: for any request that doesn't
-// match one above, send back React's index.html file.
-app.get('/*splat', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+// 2. The "catch-all" handler: send back Vite's index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
 
 const PORT = process.env.PORT || 5000;
