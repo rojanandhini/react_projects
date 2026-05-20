@@ -7,7 +7,7 @@ generator client {
   provider      = "prisma-client-js"
   engineType    = "client"
   output     = "../src/generated/client"
-  binaryTargets = ["debian-openssl-3.0.x", "windows"]
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
 }
 
 model News {
