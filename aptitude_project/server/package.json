@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node index.js",
     "start": "node index.js",
-    "build": "npx prisma generate && tsc"
+    "build": "node node_modules/prisma/build/index.js generate"
   },
   "keywords": [],
   "author": "",

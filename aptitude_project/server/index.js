@@ -5,11 +5,11 @@ var jwt = require('jsonwebtoken');
 const path = require('path');
 const nodemailer = require('nodemailer');
 const { PrismaClient } = require('@prisma/client');
-
+const prisma= new PrismaClient();
 const qnEntry = require('./routes/qnEntry');
 const testResults =require('./routes/testResults');
 const app=express();
-const prisma= new PrismaClient();
+
 
 app.use(cors());
 app.use(express.json());
