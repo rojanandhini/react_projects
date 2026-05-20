@@ -237,7 +237,7 @@ app.use('/api/results', testResults);
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // 2. The "catch-all" handler: send back Vite's index.html file.
-app.get('*', (req, res) => {
+app.get('/*any', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
 
