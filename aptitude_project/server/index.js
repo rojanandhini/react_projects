@@ -4,11 +4,9 @@ const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 const path = require('path');
 const nodemailer = require('nodemailer');
-const prismaClientPath = process.env.RENDER
-  ? path.join('/opt/render/project/src/aptitude_project/server/prisma/client')
-  : './prisma/client';
+const { PrismaClient } = require('@prisma/client');
 
-const { PrismaClient } = require(prismaClientPath);
+
 
 const qnEntry = require('./routes/qnEntry');
 const testResults =require('./routes/testResults');
