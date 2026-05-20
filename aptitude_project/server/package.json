@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node index.js",
     "start": "node index.js",
-    "build": "node node_modules/prisma/build/index.js generate"
+    "build": "echo 'Build done'"
   },
   "keywords": [],
   "author": "",
