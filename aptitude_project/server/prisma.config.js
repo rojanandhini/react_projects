@@ -6,9 +6,7 @@ export default defineConfig({
   migrations: {
     path: "prisma/migrations",
   },
-  engine: "classic",
-  // ⚡ Add the explicit binary target requirements here:
-  binaryTargets: ["debian-openssl-3.0.x", "windows"], 
+  engine: "client", // ⚡ Set engine to "client" to match the modern architecture
   datasource: {
     url: env("DATABASE_URL"),
   },
