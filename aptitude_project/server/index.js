@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 const path = require('path');
 const nodemailer = require('nodemailer');
-const {PrismaClient} = require("@prisma/client");
+const {PrismaClient} = require("./generated/client");
 
 const qnEntry = require('./routes/qnEntry');
 const testResults =require('./routes/testResults');
